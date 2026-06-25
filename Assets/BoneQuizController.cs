@@ -231,14 +231,14 @@ public sealed class BoneQuizController : MonoBehaviour
     private void HandleWrongAnswer(Transform wrongBoneTransform)
     {
         if (audioSource != null && wrongSfx != null) audioSource.PlayOneShot(wrongSfx);
+        
+        // Vibrate the phone on every wrong answer
+        Handheld.Vibrate();
 
         if (hearts > 0)
         {
             Image lostHeart = heartImages[hearts - 1];
             StartCoroutine(AnimateHeartLoss(lostHeart));
-            
-            // Vibrate the phone
-            Handheld.Vibrate();
         }
 
         hearts--;
