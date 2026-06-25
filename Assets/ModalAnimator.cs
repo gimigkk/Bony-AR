@@ -27,6 +27,12 @@ public class ModalAnimator : MonoBehaviour
     {
         if (rectTransform == null) return;
 
+        // Force the modal's parent overlay to render on top of all other UI elements
+        if (transform.parent != null)
+        {
+            transform.parent.SetAsLastSibling();
+        }
+
         if (animationCoroutine != null)
         {
             StopCoroutine(animationCoroutine);
