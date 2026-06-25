@@ -290,9 +290,12 @@ public class BoneInteractionUI : MonoBehaviour
         hRect.anchorMin = new Vector2(0.5f, 0.5f);
         hRect.anchorMax = new Vector2(0.5f, 0.5f);
         hRect.anchoredPosition = Vector2.zero;
-        hRect.sizeDelta = new Vector2(20f, 2f);
+        hRect.sizeDelta = new Vector2(24f, 4f);
         Image hImage = hLine.GetComponent<Image>();
-        hImage.color = new Color(1f, 1f, 1f, 0.8f);
+        hImage.color = new Color(1f, 1f, 1f, 0.95f);
+        UnityEngine.UI.Shadow hShadow = hLine.AddComponent<UnityEngine.UI.Shadow>();
+        hShadow.effectColor = new Color(0f, 0f, 0f, 0.8f);
+        hShadow.effectDistance = new Vector2(2f, -2f);
 
         GameObject vLine = new GameObject("VLine", typeof(RectTransform), typeof(Image));
         vLine.transform.SetParent(crosshairObject.transform, false);
@@ -300,9 +303,12 @@ public class BoneInteractionUI : MonoBehaviour
         vRect.anchorMin = new Vector2(0.5f, 0.5f);
         vRect.anchorMax = new Vector2(0.5f, 0.5f);
         vRect.anchoredPosition = Vector2.zero;
-        vRect.sizeDelta = new Vector2(2f, 20f);
+        vRect.sizeDelta = new Vector2(4f, 24f);
         Image vImage = vLine.GetComponent<Image>();
-        vImage.color = new Color(1f, 1f, 1f, 0.8f);
+        vImage.color = new Color(1f, 1f, 1f, 0.95f);
+        UnityEngine.UI.Shadow vShadow = vLine.AddComponent<UnityEngine.UI.Shadow>();
+        vShadow.effectColor = new Color(0f, 0f, 0f, 0.8f);
+        vShadow.effectDistance = new Vector2(2f, -2f);
 
         crosshairObject.SetActive(false);
 
