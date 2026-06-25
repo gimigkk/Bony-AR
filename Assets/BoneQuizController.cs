@@ -232,8 +232,22 @@ public sealed class BoneQuizController : MonoBehaviour
     {
         if (audioSource != null && wrongSfx != null) audioSource.PlayOneShot(wrongSfx);
         
-        // Vibrate the phone on every wrong answer
+        // Vibrate the phone using native Android API for better reliability
+#if UNITY_ANDROID && !UNITY_EDITOR
+        try {
+            using (AndroidJavaClass unityPlayer = new AndroidJavaClass("com.unity3d.player.UnityPlayer"))
+            using (AndroidJavaObject currentActivity = unityPlayer.GetStatic<AndroidJavaObject>("currentActivity"))
+            using (AndroidJavaObject vibrator = currentActivity.Call<AndroidJavaObject>("getSystemService", "vibrator")) {
+                if (vibrator != null) {
+                    vibrator.Call("vibrate", 300L); // 300ms vibration
+                }
+            }
+        } catch {
+            Handheld.Vibrate(); // fallback
+        }
+#else
         Handheld.Vibrate();
+#endif
 
         if (hearts > 0)
         {
