@@ -68,6 +68,7 @@ public sealed class ARAppModeController : MonoBehaviour
     {
         Application.targetFrameRate = 60;
         QualitySettings.vSyncCount = 0;
+        Screen.sleepTimeout = SleepTimeout.NeverSleep;
 
         // Force URP Render Scale down for GPU performance
         var urpAsset = UnityEngine.Rendering.GraphicsSettings.currentRenderPipeline as UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset;
