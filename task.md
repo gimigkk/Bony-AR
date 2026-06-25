@@ -1,0 +1,6 @@
+- `[x]` Create `Button3DAnimator.cs` script
+- `[x]` Implement `ARAppModeController.Create3DButtonObject`
+- `[x]` Update `ARAppModeController.cs` usages
+- `[x]` Update `BoneQuizController.cs` usages
+- `[x]` Test / Verify logic
+- `[ ]` Create Walkthrough

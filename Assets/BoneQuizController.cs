@@ -408,8 +408,7 @@ public sealed class BoneQuizController : MonoBehaviour
         ARAppModeController.CreateLayoutText("Title", rulesBox.transform, "Aturan Kuis", 48f, FontStyles.Bold, TextAlignmentOptions.Center);
         ARAppModeController.CreateLayoutText("Desc", rulesBox.transform, "Temukan tulang yang diminta sebelum waktu habis!\n\nSalah pilih atau kehabisan waktu = hilang 1 nyawa.", 28f, FontStyles.Normal, TextAlignmentOptions.Center);
         
-        GameObject startBtnObj = ARAppModeController.CreateButtonObject("Start Button", rulesBox.transform, new Color(0.37f, 0.09f, 0.92f, 1f), out Button startButton, out TMP_Text startLbl);
-        startLbl.text = "Mulai Kuis";
+        GameObject startBtnObj = ARAppModeController.Create3DButtonObject("Start Button", rulesBox.transform, "MULAI KUIS", out Button startButton, out TMP_Text startLbl);
         startButton.onClick.AddListener(StartGameplay);
         ARAppModeController.SetLayoutSize(startBtnObj, 0f, 60f, 0f, 0f);
 
@@ -475,8 +474,7 @@ public sealed class BoneQuizController : MonoBehaviour
         AddTMPShadow(hudTargetText);
 
         // Exit Button (Bottom Center)
-        GameObject exitBtnObj = ARAppModeController.CreateButtonObject("Exit Button", hudPanel.transform, new Color(0.8f, 0.2f, 0.2f), out Button exitBtn, out TMP_Text exitLbl);
-        exitLbl.text = "Keluar Kuis";
+        GameObject exitBtnObj = ARAppModeController.Create3DButtonObject("Exit Button", hudPanel.transform, "Keluar Kuis", out Button exitBtn, out TMP_Text exitLbl);
         exitLbl.fontSize = 22f;
         exitLbl.textWrappingMode = TextWrappingModes.NoWrap;
         exitBtn.onClick.AddListener(ExitMinigameClicked);
@@ -522,8 +520,7 @@ public sealed class BoneQuizController : MonoBehaviour
         gameOverScoreText = ARAppModeController.CreateLayoutText("Score", overBox.transform, "Skor: 0", 36f, FontStyles.Normal, TextAlignmentOptions.Center);
         gameOverAvgTimeText = ARAppModeController.CreateLayoutText("Time", overBox.transform, "Rata-rata: 0s", 36f, FontStyles.Normal, TextAlignmentOptions.Center);
 
-        GameObject backBtnObj = ARAppModeController.CreateButtonObject("Back Button", overBox.transform, new Color(0.37f, 0.09f, 0.92f, 1f), out Button backBtn, out TMP_Text backLbl);
-        backLbl.text = "Kembali ke Menu";
+        GameObject backBtnObj = ARAppModeController.Create3DButtonObject("Back Button", overBox.transform, "KEMBALI KE MENU", out Button backBtn, out TMP_Text backLbl);
         backBtn.onClick.AddListener(() => {
             ClearQuiz();
             if (ARAppModeController.Instance != null) ARAppModeController.Instance.SetMode(ARAppMode.Skeleton);

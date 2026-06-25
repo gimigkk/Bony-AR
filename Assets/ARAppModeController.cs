@@ -452,8 +452,7 @@ public sealed class ARAppModeController : MonoBehaviour
         CreateLayoutText("Inst 2", rect, "• Gunakan slider di sisi kanan untuk memutar dan memperbesar/memperkecil model.", 26f, FontStyles.Normal, TextAlignmentOptions.TopLeft);
         CreateLayoutText("Inst 3", rect, "• Beralih ke mode Kuis untuk menguji pengetahuan Anda tentang kerangka!", 26f, FontStyles.Normal, TextAlignmentOptions.TopLeft);
 
-        GameObject closeBtnObj = CreateButtonObject("Tutup Instruksi", rect, SelectedColor, out Button closeBtn, out TMP_Text closeLbl);
-        closeLbl.text = "Tutup";
+        GameObject closeBtnObj = Create3DButtonObject("Tutup Instruksi", rect, "Tutup", out Button closeBtn, out TMP_Text closeLbl);
         closeBtn.onClick.AddListener(ToggleInstructionPanel);
         SetLayoutSize(closeBtnObj, 0f, 60f, 0f, 0f);
 
@@ -658,7 +657,7 @@ public sealed class ARAppModeController : MonoBehaviour
     private void AddModeButton(RectTransform parent, string text, ARAppMode mode)
     {
         GameObject buttonObject = AddButton(parent, text, ButtonColor, () => SetMode(mode));
-        modeButtonImages[mode] = buttonObject.GetComponent<Image>();
+        modeButtonImages[mode] = buttonObject.transform.Find("Top Layer").GetComponent<Image>();
         
         if (mode == ARAppMode.Quiz)
         {
@@ -669,8 +668,7 @@ public sealed class ARAppModeController : MonoBehaviour
 
     private GameObject AddButton(RectTransform parent, string text, Color color, UnityEngine.Events.UnityAction action)
     {
-        GameObject buttonObject = CreateButtonObject(text + " Button", parent, color, out Button button, out TMP_Text label);
-        label.text = text;
+        GameObject buttonObject = Create3DButtonObject(text + " Button", parent, text, out Button button, out TMP_Text label);
         label.fontSize = 30f;
         button.onClick.AddListener(action);
 
@@ -1052,6 +1050,70 @@ public sealed class ARAppModeController : MonoBehaviour
         label.fontStyle = FontStyles.Bold;
         label.alignment = TextAlignmentOptions.Center;
         label.textWrappingMode = TextWrappingModes.Normal;
+        label.raycastTarget = false;
+
+        return buttonObject;
+    }
+
+    public static GameObject Create3DButtonObject(
+        string name,
+        Transform parent,
+        string buttonText,
+        out Button button,
+        out TMP_Text label)
+    {
+        // 1. Base Layer (Black shadow/depth)
+        GameObject buttonObject = new GameObject(name, typeof(RectTransform), typeof(Image), typeof(Button), typeof(Button3DAnimator));
+        buttonObject.transform.SetParent(parent, false);
+
+        Image baseImage = buttonObject.GetComponent<Image>();
+        baseImage.color = new Color(0.05f, 0.05f, 0.05f, 1f); // Black
+        baseImage.sprite = GetRoundedRectSprite();
+        baseImage.type = Image.Type.Sliced;
+
+        button = buttonObject.GetComponent<Button>();
+        button.transition = Selectable.Transition.None;
+
+        // 2. Top Layer (#e8e8e8 with black outline)
+        GameObject topLayer = new GameObject("Top Layer", typeof(RectTransform), typeof(Image), typeof(UnityEngine.UI.Outline));
+        topLayer.transform.SetParent(buttonObject.transform, false);
+
+        RectTransform topRect = topLayer.GetComponent<RectTransform>();
+        topRect.anchorMin = Vector2.zero;
+        topRect.anchorMax = Vector2.one;
+        topRect.offsetMin = Vector2.zero;
+        topRect.offsetMax = Vector2.zero;
+
+        Image topImage = topLayer.GetComponent<Image>();
+        topImage.color = new Color(0.91f, 0.91f, 0.91f, 1f); // #e8e8e8
+        topImage.sprite = GetRoundedRectSprite();
+        topImage.type = Image.Type.Sliced;
+        
+        button.targetGraphic = topImage;
+
+        UnityEngine.UI.Outline outline = topLayer.GetComponent<UnityEngine.UI.Outline>();
+        outline.effectColor = new Color(0.05f, 0.05f, 0.05f, 1f);
+        outline.effectDistance = new Vector2(2f, -2f);
+
+        Button3DAnimator animator = buttonObject.GetComponent<Button3DAnimator>();
+        animator.Initialize(topRect);
+
+        // 3. Text (Black, Bold)
+        GameObject textObject = new GameObject("Text", typeof(RectTransform), typeof(TextMeshProUGUI));
+        textObject.transform.SetParent(topLayer.transform, false);
+
+        RectTransform textRect = textObject.GetComponent<RectTransform>();
+        textRect.anchorMin = Vector2.zero;
+        textRect.anchorMax = Vector2.one;
+        textRect.offsetMin = new Vector2(6f, 2f);
+        textRect.offsetMax = new Vector2(-6f, -2f);
+
+        label = textObject.GetComponent<TMP_Text>();
+        label.text = buttonText;
+        label.fontSize = 28f;
+        label.color = new Color(0.05f, 0.05f, 0.05f, 1f);
+        label.fontStyle = FontStyles.Bold;
+        label.alignment = TextAlignmentOptions.Center;
         label.raycastTarget = false;
 
         return buttonObject;
