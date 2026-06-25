@@ -326,22 +326,26 @@ public sealed class ARAppModeController : MonoBehaviour
 
         statusText = CreateText("Mode Status Text", statusPanel, "", 26f, FontStyles.Normal, TextAlignmentOptions.Center);
 
-        RectTransform bar = CreatePanel("Bottom Action Bar", overlayRoot, BarColor);
-        bar.anchorMin = new Vector2(0.04f, 0f);
-        bar.anchorMax = new Vector2(0.96f, 0f);
+        RectTransform bar = CreatePanel("Bottom Action Bar", overlayRoot, Color.white);
+        Image barImage = bar.GetComponent<Image>();
+        barImage.sprite = GetGradientSprite();
+        barImage.type = Image.Type.Simple;
+
+        bar.anchorMin = new Vector2(0f, 0f);
+        bar.anchorMax = new Vector2(1f, 0f);
         bar.pivot = new Vector2(0.5f, 0f);
-        bar.anchoredPosition = new Vector2(0f, 14f);
-        bar.sizeDelta = new Vector2(0f, 110f);
+        bar.anchoredPosition = new Vector2(0f, 0f);
+        bar.sizeDelta = new Vector2(0f, 180f);
         actionBarObject = bar.gameObject;
 
         HorizontalLayoutGroup layout = bar.gameObject.AddComponent<HorizontalLayoutGroup>();
-        layout.padding = new RectOffset(14, 14, 12, 12);
-        layout.spacing = 8f;
-        layout.childAlignment = TextAnchor.MiddleCenter;
+        layout.padding = new RectOffset(20, 20, 20, 40); // 40 bottom padding to keep buttons above physical screen edge
+        layout.spacing = 16f;
+        layout.childAlignment = TextAnchor.LowerCenter;
         layout.childControlWidth = true;
         layout.childControlHeight = true;
         layout.childForceExpandWidth = true;
-        layout.childForceExpandHeight = true;
+        layout.childForceExpandHeight = false;
 
         AddModeButton(bar, "Kuis", ARAppMode.Quiz);
         AddButton(bar, "Reset", ResetColor, ResetApp);
@@ -604,6 +608,29 @@ public sealed class ARAppModeController : MonoBehaviour
         return slider;
     }
 
+    private static Sprite cachedGradientSprite;
+
+    private static Sprite GetGradientSprite()
+    {
+        if (cachedGradientSprite != null) return cachedGradientSprite;
+
+        int height = 128;
+        Texture2D tex = new Texture2D(1, height, TextureFormat.RGBA32, false);
+        tex.wrapMode = TextureWrapMode.Clamp;
+        
+        for (int y = 0; y < height; y++)
+        {
+            float t = (float)y / (height - 1);
+            // Smooth non-linear fade for the gradient
+            float alpha = Mathf.Pow(1f - t, 1.5f);
+            tex.SetPixel(0, y, new Color(0f, 0f, 0f, alpha * 0.95f));
+        }
+        tex.Apply();
+        
+        cachedGradientSprite = Sprite.Create(tex, new Rect(0, 0, 1, height), new Vector2(0.5f, 0f));
+        return cachedGradientSprite;
+    }
+
     private static Sprite cachedCircleSprite;
 
     private static Sprite GetCircleSprite()
@@ -678,6 +705,8 @@ public sealed class ARAppModeController : MonoBehaviour
         LayoutElement layoutElement = buttonObject.AddComponent<LayoutElement>();
         layoutElement.minWidth = 140f;
         layoutElement.preferredWidth = 200f;
+        layoutElement.minHeight = 75f;
+        layoutElement.preferredHeight = 75f;
 
         return buttonObject;
     }
