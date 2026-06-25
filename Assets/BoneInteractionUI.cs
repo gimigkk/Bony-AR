@@ -873,7 +873,7 @@ public class BoneInteractionUI : MonoBehaviour
         overlayRect.offsetMax = Vector2.zero;
 
         Image overlayImage = infoPanelObject.GetComponent<Image>();
-        overlayImage.color = new Color(0f, 0f, 0f, 0.82f); // Full screen dimming
+        overlayImage.color = new Color(0f, 0f, 0f, 0f); // Fully transparent background
 
         Button closeButton = infoPanelObject.GetComponent<Button>();
         closeButton.targetGraphic = overlayImage;

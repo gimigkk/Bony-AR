@@ -372,7 +372,7 @@ public sealed class BoneQuizController : MonoBehaviour
         rulesOverlayRect.offsetMin = Vector2.zero; rulesOverlayRect.offsetMax = Vector2.zero;
         
         Image rulesBg = rulesPanel.GetComponent<Image>();
-        rulesBg.color = new Color(0f, 0f, 0f, 0.6f); // Match ARAppModeController overlay dimming
+        rulesBg.color = new Color(0f, 0f, 0f, 0f); // Fully transparent background
         
         Button rulesBtn = rulesPanel.GetComponent<Button>();
         rulesBtn.transition = Selectable.Transition.None;
@@ -503,7 +503,7 @@ public sealed class BoneQuizController : MonoBehaviour
         overOverlayRect.offsetMin = Vector2.zero; overOverlayRect.offsetMax = Vector2.zero;
         
         Image overBg = gameOverPanel.GetComponent<Image>();
-        overBg.color = new Color(0f, 0f, 0f, 0.6f); // Match dimming
+        overBg.color = new Color(0f, 0f, 0f, 0f); // Fully transparent background
         
         GameObject overBox = ARAppModeController.CreatePanel("Game Over Box", gameOverPanel.transform, new Color(0.08f, 0.09f, 0.1f, 0.98f)).gameObject;
         overBox.AddComponent<ModalAnimator>();

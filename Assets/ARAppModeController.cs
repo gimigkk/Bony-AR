@@ -325,6 +325,9 @@ public sealed class ARAppModeController : MonoBehaviour
         statusPanelObject = statusPanel.gameObject;
 
         statusText = CreateText("Mode Status Text", statusPanel, "", 26f, FontStyles.Normal, TextAlignmentOptions.Center);
+        UnityEngine.UI.Shadow textShadow = statusText.gameObject.AddComponent<UnityEngine.UI.Shadow>();
+        textShadow.effectColor = new Color(0f, 0f, 0f, 1f);
+        textShadow.effectDistance = new Vector2(1.5f, -1.5f);
 
         RectTransform bar = CreatePanel("Bottom Action Bar", overlayRoot, Color.white);
         Image barImage = bar.GetComponent<Image>();
@@ -427,7 +430,7 @@ public sealed class ARAppModeController : MonoBehaviour
         overlayRect.offsetMax = Vector2.zero;
 
         Image overlayBg = instructionPanelObject.GetComponent<Image>();
-        overlayBg.color = new Color(0f, 0f, 0f, 0.6f); // Dark semi-transparent background
+        overlayBg.color = new Color(0f, 0f, 0f, 0f); // Fully transparent background
 
         Button overlayBtn = instructionPanelObject.GetComponent<Button>();
         overlayBtn.transition = Selectable.Transition.None;
