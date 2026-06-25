@@ -344,14 +344,13 @@ public sealed class ARAppModeController : MonoBehaviour
 
         RectTransform topBar = CreatePanel("Top Action Bar Gradient", overlayRoot, Color.white);
         Image topBarImage = topBar.GetComponent<Image>();
-        topBarImage.sprite = GetGradientSprite();
+        topBarImage.sprite = GetTopGradientSprite();
         topBarImage.type = Image.Type.Simple;
         topBar.anchorMin = new Vector2(0f, 1f);
         topBar.anchorMax = new Vector2(1f, 1f);
         topBar.pivot = new Vector2(0.5f, 1f);
         topBar.anchoredPosition = new Vector2(0f, 0f);
         topBar.sizeDelta = new Vector2(0f, 280f);
-        topBar.localRotation = Quaternion.Euler(0, 0, 180f);
         topBar.SetAsFirstSibling();
 
         HorizontalLayoutGroup layout = bar.gameObject.AddComponent<HorizontalLayoutGroup>();
@@ -653,6 +652,29 @@ public sealed class ARAppModeController : MonoBehaviour
         
         cachedGradientSprite = Sprite.Create(tex, new Rect(0, 0, 1, height), new Vector2(0.5f, 0f));
         return cachedGradientSprite;
+    }
+
+    private static Sprite cachedTopGradientSprite;
+
+    private static Sprite GetTopGradientSprite()
+    {
+        if (cachedTopGradientSprite != null) return cachedTopGradientSprite;
+
+        int height = 128;
+        Texture2D tex = new Texture2D(1, height, TextureFormat.RGBA32, false);
+        tex.wrapMode = TextureWrapMode.Clamp;
+        
+        for (int y = 0; y < height; y++)
+        {
+            float t = (float)y / (height - 1);
+            // Darker at top (t=1), so we use t directly
+            float alpha = Mathf.Pow(t, 0.7f);
+            tex.SetPixel(0, y, new Color(0f, 0f, 0f, alpha * 0.98f));
+        }
+        tex.Apply();
+        
+        cachedTopGradientSprite = Sprite.Create(tex, new Rect(0, 0, 1, height), new Vector2(0.5f, 1f));
+        return cachedTopGradientSprite;
     }
 
     private static Sprite cachedCircleSprite;
