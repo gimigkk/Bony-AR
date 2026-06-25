@@ -863,7 +863,7 @@ public sealed class ARAppModeController : MonoBehaviour
 
         if (modeButtonImages.TryGetValue(ARAppMode.Quiz, out Image quizImage))
         {
-            Button quizBtn = quizImage.GetComponent<Button>();
+            Button quizBtn = quizImage.transform.parent.GetComponent<Button>();
             if (quizBtn != null)
             {
                 quizBtn.interactable = (skeleton != null);
@@ -879,7 +879,8 @@ public sealed class ARAppModeController : MonoBehaviour
         {
             if (pair.Value != null)
             {
-                pair.Value.color = pair.Key == currentMode ? SelectedColor : ButtonColor;
+                // Active mode is slightly darker gray, inactive is white/e8e8e8
+                pair.Value.color = pair.Key == currentMode ? new Color(0.8f, 0.8f, 0.8f, 1f) : new Color(0.91f, 0.91f, 0.91f, 1f);
             }
         }
     }
@@ -1062,12 +1063,12 @@ public sealed class ARAppModeController : MonoBehaviour
         out Button button,
         out TMP_Text label)
     {
-        // 1. Base Layer (Black shadow/depth)
+        // 1. Base Layer (Gray shadow/depth)
         GameObject buttonObject = new GameObject(name, typeof(RectTransform), typeof(Image), typeof(Button), typeof(Button3DAnimator));
         buttonObject.transform.SetParent(parent, false);
 
         Image baseImage = buttonObject.GetComponent<Image>();
-        baseImage.color = new Color(0.05f, 0.05f, 0.05f, 1f); // Black
+        baseImage.color = new Color(0.5f, 0.5f, 0.5f, 1f); // Gray
         baseImage.sprite = GetRoundedRectSprite();
         baseImage.type = Image.Type.Sliced;
 
@@ -1092,7 +1093,7 @@ public sealed class ARAppModeController : MonoBehaviour
         button.targetGraphic = topImage;
 
         UnityEngine.UI.Outline outline = topLayer.GetComponent<UnityEngine.UI.Outline>();
-        outline.effectColor = new Color(0.05f, 0.05f, 0.05f, 1f);
+        outline.effectColor = new Color(0.5f, 0.5f, 0.5f, 1f); // Gray border
         outline.effectDistance = new Vector2(2f, -2f);
 
         Button3DAnimator animator = buttonObject.GetComponent<Button3DAnimator>();
