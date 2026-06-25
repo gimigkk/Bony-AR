@@ -451,6 +451,10 @@ public sealed class ARAppModeController : MonoBehaviour
         panelImage.color = new Color(0.05f, 0.05f, 0.05f, 0.98f);
         panelImage.sprite = GetRoundedRectSprite();
         panelImage.type = Image.Type.Sliced;
+        
+        UnityEngine.UI.Shadow boxShadow = modalBox.AddComponent<UnityEngine.UI.Shadow>();
+        boxShadow.effectColor = new Color(0f, 0f, 0f, 0.8f);
+        boxShadow.effectDistance = new Vector2(10f, -10f);
 
         VerticalLayoutGroup layout = modalBox.GetComponent<VerticalLayoutGroup>();
         layout.padding = new RectOffset(40, 40, 40, 40);
