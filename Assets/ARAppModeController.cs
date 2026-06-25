@@ -38,6 +38,7 @@ public sealed class ARAppModeController : MonoBehaviour
     private Image modelControlButtonImage;
     private Slider scaleSlider;
     private Slider yawSlider;
+    private Slider yOffsetSlider;
     private bool isUpdatingSliders = false;
     private ARAppMode currentMode = (ARAppMode)(-1);
     private bool modelControlsVisible;
@@ -569,6 +570,17 @@ public sealed class ARAppModeController : MonoBehaviour
             }
         });
 
+        // Create Y Offset Slider
+        yOffsetSlider = CreateVerticalSlider("Tinggi", panel, -0.5f, 0.5f, 0f);
+        yOffsetSlider.onValueChanged.AddListener((val) => {
+            if (isUpdatingSliders) return;
+            SkeletonTransformHandle handle = GetActiveTransformHandle(true);
+            if (handle != null) {
+                Vector3 pos = handle.PositionOffset;
+                handle.SetPositionOffset(new Vector3(pos.x, val, pos.z));
+            }
+        });
+
         SetModelControlPanelVisible(false);
     }
 
@@ -830,6 +842,7 @@ public sealed class ARAppModeController : MonoBehaviour
         isUpdatingSliders = true;
         scaleSlider.value = transformHandle.ScaleMultiplier;
         yawSlider.value = transformHandle.RotationOffset.y;
+        yOffsetSlider.value = transformHandle.PositionOffset.y;
         isUpdatingSliders = false;
     }
 
@@ -837,6 +850,7 @@ public sealed class ARAppModeController : MonoBehaviour
     {
         if (scaleSlider != null) scaleSlider.interactable = interactable;
         if (yawSlider != null) yawSlider.interactable = interactable;
+        if (yOffsetSlider != null) yOffsetSlider.interactable = interactable;
     }
 
     private SkeletonTransformHandle GetActiveTransformHandle(bool createIfMissing)
