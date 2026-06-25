@@ -382,7 +382,7 @@ public sealed class BoneQuizController : MonoBehaviour
         GameObject rulesBox = new GameObject("Rules Box", typeof(RectTransform), typeof(Image), typeof(VerticalLayoutGroup), typeof(ContentSizeFitter), typeof(Button), typeof(ModalAnimator));
         rulesBox.transform.SetParent(rulesPanel.transform, false);
         Image rulesBoxImg = rulesBox.GetComponent<Image>();
-        rulesBoxImg.color = new Color(0.08f, 0.09f, 0.1f, 0.98f);
+        rulesBoxImg.color = new Color(0.05f, 0.05f, 0.05f, 0.98f);
         rulesBoxImg.sprite = ARAppModeController.GetRoundedRectSprite();
         rulesBoxImg.type = Image.Type.Sliced;
         Button rulesBoxBlocker = rulesBox.GetComponent<Button>();
@@ -407,6 +407,10 @@ public sealed class BoneQuizController : MonoBehaviour
 
         ARAppModeController.CreateLayoutText("Title", rulesBox.transform, "Aturan Kuis", 48f, FontStyles.Bold, TextAlignmentOptions.Center);
         ARAppModeController.CreateLayoutText("Desc", rulesBox.transform, "Temukan tulang yang diminta sebelum waktu habis!\n\nSalah pilih atau kehabisan waktu = hilang 1 nyawa.", 28f, FontStyles.Normal, TextAlignmentOptions.Center);
+
+        GameObject rulesSpacer = new GameObject("Spacer", typeof(RectTransform), typeof(LayoutElement));
+        rulesSpacer.transform.SetParent(rulesBox.transform, false);
+        rulesSpacer.GetComponent<LayoutElement>().minHeight = 24f;
         
         GameObject startBtnObj = ARAppModeController.Create3DButtonObject("Start Button", rulesBox.transform, "MULAI KUIS", out Button startButton, out TMP_Text startLbl);
         startButton.onClick.AddListener(StartGameplay);
@@ -505,7 +509,7 @@ public sealed class BoneQuizController : MonoBehaviour
         Image overBg = gameOverPanel.GetComponent<Image>();
         overBg.color = new Color(0f, 0f, 0f, 0f); // Fully transparent background
         
-        GameObject overBox = ARAppModeController.CreatePanel("Game Over Box", gameOverPanel.transform, new Color(0.08f, 0.09f, 0.1f, 0.98f)).gameObject;
+        GameObject overBox = ARAppModeController.CreatePanel("Game Over Box", gameOverPanel.transform, new Color(0.05f, 0.05f, 0.05f, 0.98f)).gameObject;
         overBox.AddComponent<ModalAnimator>();
         RectTransform overRect = overBox.GetComponent<RectTransform>();
         overRect.anchorMin = new Vector2(0.2f, 0.3f); overRect.anchorMax = new Vector2(0.8f, 0.7f);
@@ -519,6 +523,10 @@ public sealed class BoneQuizController : MonoBehaviour
         ARAppModeController.CreateLayoutText("Over Title", overBox.transform, "GAME OVER", 56f, FontStyles.Bold, TextAlignmentOptions.Center);
         gameOverScoreText = ARAppModeController.CreateLayoutText("Score", overBox.transform, "Skor: 0", 36f, FontStyles.Normal, TextAlignmentOptions.Center);
         gameOverAvgTimeText = ARAppModeController.CreateLayoutText("Time", overBox.transform, "Rata-rata: 0s", 36f, FontStyles.Normal, TextAlignmentOptions.Center);
+
+        GameObject overSpacer = new GameObject("Spacer", typeof(RectTransform), typeof(LayoutElement));
+        overSpacer.transform.SetParent(overBox.transform, false);
+        overSpacer.GetComponent<LayoutElement>().minHeight = 24f;
 
         GameObject backBtnObj = ARAppModeController.Create3DButtonObject("Back Button", overBox.transform, "KEMBALI KE MENU", out Button backBtn, out TMP_Text backLbl);
         backBtn.onClick.AddListener(() => {

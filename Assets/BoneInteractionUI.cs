@@ -898,7 +898,7 @@ public class BoneInteractionUI : MonoBehaviour
         rect.sizeDelta = Vector2.zero;
 
         Image panelImage = modalBox.GetComponent<Image>();
-        panelImage.color = new Color(0.08f, 0.09f, 0.1f, 0.98f);
+        panelImage.color = new Color(0.05f, 0.05f, 0.05f, 0.98f);
         panelImage.sprite = ARAppModeController.GetRoundedRectSprite();
         panelImage.type = Image.Type.Sliced;
 

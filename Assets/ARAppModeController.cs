@@ -448,7 +448,7 @@ public sealed class ARAppModeController : MonoBehaviour
         rect.sizeDelta = Vector2.zero;
 
         Image panelImage = modalBox.GetComponent<Image>();
-        panelImage.color = new Color(0.08f, 0.09f, 0.1f, 0.98f);
+        panelImage.color = new Color(0.05f, 0.05f, 0.05f, 0.98f);
         panelImage.sprite = GetRoundedRectSprite();
         panelImage.type = Image.Type.Sliced;
 
@@ -468,6 +468,10 @@ public sealed class ARAppModeController : MonoBehaviour
         CreateLayoutText("Inst 1", rect, "• Sentuh tulang pada rangka untuk melihat informasi detailnya.", 26f, FontStyles.Normal, TextAlignmentOptions.TopLeft);
         CreateLayoutText("Inst 2", rect, "• Gunakan slider di sisi kanan untuk memutar dan memperbesar/memperkecil model.", 26f, FontStyles.Normal, TextAlignmentOptions.TopLeft);
         CreateLayoutText("Inst 3", rect, "• Beralih ke mode Kuis untuk menguji pengetahuan Anda tentang kerangka!", 26f, FontStyles.Normal, TextAlignmentOptions.TopLeft);
+
+        GameObject spacer = new GameObject("Spacer", typeof(RectTransform), typeof(LayoutElement));
+        spacer.transform.SetParent(rect, false);
+        spacer.GetComponent<LayoutElement>().minHeight = 24f;
 
         GameObject closeBtnObj = Create3DButtonObject("Tutup Instruksi", rect, "Tutup", out Button closeBtn, out TMP_Text closeLbl);
         closeBtn.onClick.AddListener(ToggleInstructionPanel);
