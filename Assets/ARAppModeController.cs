@@ -592,7 +592,7 @@ public sealed class ARAppModeController : MonoBehaviour
         fillRect.offsetMin = Vector2.zero;
         fillRect.offsetMax = Vector2.zero;
         Image fillImage = fillRect.GetComponent<Image>();
-        fillImage.color = SelectedColor;
+        fillImage.color = new Color(0.91f, 0.91f, 0.91f, 1f); // #e8e8e8 White to match buttons
 
         RectTransform handleAreaRect = sliderObj.transform.Find("Handle Slide Area").GetComponent<RectTransform>();
         handleAreaRect.anchorMin = new Vector2(0.5f, 0f);
