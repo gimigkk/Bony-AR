@@ -329,17 +329,23 @@ public sealed class ARAppModeController : MonoBehaviour
         textShadow.effectColor = new Color(0f, 0f, 0f, 1f);
         textShadow.effectDistance = new Vector2(1.5f, -1.5f);
 
-        RectTransform bar = CreatePanel("Bottom Action Bar", overlayRoot, Color.white);
-        Image barImage = bar.GetComponent<Image>();
-        barImage.sprite = GetGradientSprite();
-        barImage.type = Image.Type.Simple;
+        RectTransform bottomGradient = CreatePanel("Bottom Gradient", overlayRoot, Color.white);
+        Image bottomGradImage = bottomGradient.GetComponent<Image>();
+        bottomGradImage.sprite = GetGradientSprite();
+        bottomGradImage.type = Image.Type.Simple;
+        bottomGradient.anchorMin = new Vector2(0f, 0f);
+        bottomGradient.anchorMax = new Vector2(1f, 0f);
+        bottomGradient.pivot = new Vector2(0.5f, 0f);
+        bottomGradient.anchoredPosition = new Vector2(0f, 0f);
+        bottomGradient.sizeDelta = new Vector2(0f, 280f);
+        bottomGradient.SetAsFirstSibling();
 
+        RectTransform bar = CreatePanel("Bottom Action Bar", overlayRoot, new Color(0, 0, 0, 0));
         bar.anchorMin = new Vector2(0f, 0f);
         bar.anchorMax = new Vector2(1f, 0f);
         bar.pivot = new Vector2(0.5f, 0f);
         bar.anchoredPosition = new Vector2(0f, 0f);
         bar.sizeDelta = new Vector2(0f, 280f);
-        bar.SetAsFirstSibling();
         actionBarObject = bar.gameObject;
 
         RectTransform topBar = CreatePanel("Top Action Bar Gradient", overlayRoot, Color.white);
@@ -463,9 +469,13 @@ public sealed class ARAppModeController : MonoBehaviour
         panelImage.sprite = GetRoundedRectSprite();
         panelImage.type = Image.Type.Sliced;
         
-        UnityEngine.UI.Shadow boxShadow = modalBox.AddComponent<UnityEngine.UI.Shadow>();
-        boxShadow.effectColor = new Color(0f, 0f, 0f, 0.8f);
-        boxShadow.effectDistance = new Vector2(10f, -10f);
+        UnityEngine.UI.Shadow shadow1 = modalBox.AddComponent<UnityEngine.UI.Shadow>();
+        shadow1.effectColor = new Color(0f, 0f, 0f, 0.4f);
+        shadow1.effectDistance = new Vector2(3f, -3f);
+        
+        UnityEngine.UI.Shadow shadow2 = modalBox.AddComponent<UnityEngine.UI.Shadow>();
+        shadow2.effectColor = new Color(0f, 0f, 0f, 0.15f);
+        shadow2.effectDistance = new Vector2(8f, -8f);
 
         VerticalLayoutGroup layout = modalBox.GetComponent<VerticalLayoutGroup>();
         layout.padding = new RectOffset(40, 40, 40, 40);

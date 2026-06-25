@@ -386,9 +386,13 @@ public sealed class BoneQuizController : MonoBehaviour
         rulesBoxImg.sprite = ARAppModeController.GetRoundedRectSprite();
         rulesBoxImg.type = Image.Type.Sliced;
         
-        UnityEngine.UI.Shadow rulesShadow = rulesBox.AddComponent<UnityEngine.UI.Shadow>();
-        rulesShadow.effectColor = new Color(0f, 0f, 0f, 0.8f);
-        rulesShadow.effectDistance = new Vector2(10f, -10f);
+        UnityEngine.UI.Shadow rulesShadow1 = rulesBox.AddComponent<UnityEngine.UI.Shadow>();
+        rulesShadow1.effectColor = new Color(0f, 0f, 0f, 0.4f);
+        rulesShadow1.effectDistance = new Vector2(3f, -3f);
+        
+        UnityEngine.UI.Shadow rulesShadow2 = rulesBox.AddComponent<UnityEngine.UI.Shadow>();
+        rulesShadow2.effectColor = new Color(0f, 0f, 0f, 0.15f);
+        rulesShadow2.effectDistance = new Vector2(8f, -8f);
         Button rulesBoxBlocker = rulesBox.GetComponent<Button>();
         rulesBoxBlocker.targetGraphic = rulesBoxImg;
         rulesBoxBlocker.transition = Selectable.Transition.None; // absorb clicks, do nothing
@@ -516,9 +520,13 @@ public sealed class BoneQuizController : MonoBehaviour
         GameObject overBox = ARAppModeController.CreatePanel("Game Over Box", gameOverPanel.transform, new Color(0.05f, 0.05f, 0.05f, 0.98f)).gameObject;
         overBox.AddComponent<ModalAnimator>();
         
-        UnityEngine.UI.Shadow overShadow = overBox.AddComponent<UnityEngine.UI.Shadow>();
-        overShadow.effectColor = new Color(0f, 0f, 0f, 0.8f);
-        overShadow.effectDistance = new Vector2(10f, -10f);
+        UnityEngine.UI.Shadow overShadow1 = overBox.AddComponent<UnityEngine.UI.Shadow>();
+        overShadow1.effectColor = new Color(0f, 0f, 0f, 0.4f);
+        overShadow1.effectDistance = new Vector2(3f, -3f);
+        
+        UnityEngine.UI.Shadow overShadow2 = overBox.AddComponent<UnityEngine.UI.Shadow>();
+        overShadow2.effectColor = new Color(0f, 0f, 0f, 0.15f);
+        overShadow2.effectDistance = new Vector2(8f, -8f);
         RectTransform overRect = overBox.GetComponent<RectTransform>();
         overRect.anchorMin = new Vector2(0.2f, 0.3f); overRect.anchorMax = new Vector2(0.8f, 0.7f);
         overRect.offsetMin = Vector2.zero; overRect.offsetMax = Vector2.zero;

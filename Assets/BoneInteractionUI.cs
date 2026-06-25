@@ -908,9 +908,13 @@ public class BoneInteractionUI : MonoBehaviour
         panelImage.sprite = ARAppModeController.GetRoundedRectSprite();
         panelImage.type = Image.Type.Sliced;
         
-        UnityEngine.UI.Shadow boxShadow = modalBox.AddComponent<UnityEngine.UI.Shadow>();
-        boxShadow.effectColor = new Color(0f, 0f, 0f, 0.8f);
-        boxShadow.effectDistance = new Vector2(10f, -10f);
+        UnityEngine.UI.Shadow shadow1 = modalBox.AddComponent<UnityEngine.UI.Shadow>();
+        shadow1.effectColor = new Color(0f, 0f, 0f, 0.4f);
+        shadow1.effectDistance = new Vector2(3f, -3f);
+        
+        UnityEngine.UI.Shadow shadow2 = modalBox.AddComponent<UnityEngine.UI.Shadow>();
+        shadow2.effectColor = new Color(0f, 0f, 0f, 0.15f);
+        shadow2.effectDistance = new Vector2(8f, -8f);
 
         VerticalLayoutGroup layout = modalBox.GetComponent<VerticalLayoutGroup>();
         layout.padding = new RectOffset(40, 40, 40, 40);
