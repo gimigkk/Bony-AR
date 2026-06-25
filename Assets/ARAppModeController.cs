@@ -198,6 +198,16 @@ public sealed class ARAppModeController : MonoBehaviour
             return;
         }
 
+        if (mode == ARAppMode.Quiz)
+        {
+            bool hasSkeletonForQuiz = SkeletonRegistry.Instance != null && SkeletonRegistry.Instance.ActiveSkeleton != null;
+            if (!hasSkeletonForQuiz)
+            {
+                SetStatus("Tempatkan kerangka terlebih dahulu untuk main kuis!");
+                return;
+            }
+        }
+
         currentMode = mode;
         UpdateModeButtonColors();
 
@@ -658,12 +668,6 @@ public sealed class ARAppModeController : MonoBehaviour
     {
         GameObject buttonObject = AddButton(parent, text, ButtonColor, () => SetMode(mode));
         modeButtonImages[mode] = buttonObject.transform.Find("Top Layer").GetComponent<Image>();
-        
-        if (mode == ARAppMode.Quiz)
-        {
-            Button btn = buttonObject.GetComponent<Button>();
-            if (btn != null) btn.interactable = false;
-        }
     }
 
     private GameObject AddButton(RectTransform parent, string text, Color color, UnityEngine.Events.UnityAction action)
@@ -859,15 +863,6 @@ public sealed class ARAppModeController : MonoBehaviour
         if (modelControlButtonObject != null)
         {
             modelControlButtonObject.SetActive(skeleton != null && currentMode != ARAppMode.Quiz);
-        }
-
-        if (modeButtonImages.TryGetValue(ARAppMode.Quiz, out Image quizImage))
-        {
-            Button quizBtn = quizImage.transform.parent.GetComponent<Button>();
-            if (quizBtn != null)
-            {
-                quizBtn.interactable = (skeleton != null);
-            }
         }
 
         RefreshModelControlPanel();
