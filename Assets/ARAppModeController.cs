@@ -134,6 +134,13 @@ public sealed class ARAppModeController : MonoBehaviour
     {
         // Wait until AR is fully initialized
         yield return new WaitForSeconds(1f);
+        
+        var arSession = FindFirstObjectByType<UnityEngine.XR.ARFoundation.ARSession>();
+        if (arSession != null)
+        {
+            arSession.matchFrameRateRequested = false;
+        }
+
         var arManager = FindFirstObjectByType<UnityEngine.XR.ARFoundation.ARCameraManager>();
         if (arManager != null && arManager.subsystem != null)
         {
@@ -152,7 +159,7 @@ public sealed class ARAppModeController : MonoBehaviour
                     }
                 }
                 
-                if (bestConfig.HasValue)
+                if (bestConfig.HasValue && highestFramerate > 30)
                 {
                     arManager.currentConfiguration = bestConfig.Value;
                     Debug.Log($"[ARAppModeController] Forced camera to {highestFramerate} FPS.");
@@ -160,6 +167,8 @@ public sealed class ARAppModeController : MonoBehaviour
                 configurations.Dispose();
             }
         }
+        
+        Application.targetFrameRate = 60;
     }
 
     private void LateUpdate()
