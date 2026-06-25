@@ -1,0 +1,1140 @@
+{
+  "bones": [
+    {
+      "no": 1,
+      "objectBlender": "arcus_costalis.l",
+      "namaTampilanIndonesia": "Lengkung iga kiri",
+      "namaAnatomiLatin": "Arcus costalis sinister",
+      "deskripsi": "Lengkung iga kiri adalah struktur berbentuk busur yang terbentuk dari tulang rawan iga 8, 9, dan 10 yang menyatu di sisi kiri tubuh, membentuk tepi bawah rongga dada.",
+      "faktaAnatomiSederhana": "Arcus costalis membentuk batas bawah rongga dada di sisi kiri, dan dokter sering meraba struktur ini untuk menilai ukuran organ di bawahnya seperti hati dan limpa."
+    },
+    {
+      "no": 2,
+      "objectBlender": "arcus_costalis.r",
+      "namaTampilanIndonesia": "Lengkung iga kanan",
+      "namaAnatomiLatin": "Arcus costalis dexter",
+      "deskripsi": "Lengkung iga kanan adalah struktur berbentuk busur yang terbentuk dari tulang rawan iga 8, 9, dan 10 di sisi kanan tubuh, membentuk tepi bawah rongga dada kanan.",
+      "faktaAnatomiSederhana": "Arcus costalis kanan berhubungan erat dengan posisi hati di bawahnya, dan pembesaran hati dapat dirasakan di bawah lengkung iga kanan ini."
+    },
+    {
+      "no": 3,
+      "objectBlender": "atlas",
+      "namaTampilanIndonesia": "Tulang atlas",
+      "namaAnatomiLatin": "Atlas / Vertebra cervicalis I",
+      "deskripsi": "Atlas (C1) adalah vertebra serviks pertama yang unik karena tidak memiliki badan vertebra. Berbentuk seperti cincin, atlas menopang tengkorak melalui dua sendi atlantooksipital yang memungkinkan gerakan mengangguk kepala.",
+      "faktaAnatomiSederhana": "Atlas dinamai dari raksasa mitologi Yunani yang menopang langit, karena tulang ini menopang seluruh berat kepala. Gerakan mengangguk terjadi di sendi antara atlas dan tengkorak."
+    },
+    {
+      "no": 4,
+      "objectBlender": "axis",
+      "namaTampilanIndonesia": "Tulang axis",
+      "namaAnatomiLatin": "Axis / Vertebra cervicalis II",
+      "deskripsi": "Axis (C2) adalah vertebra serviks kedua yang memiliki tonjolan ke atas disebut dens (odontoid process). Tonjolan ini menjadi poros yang memungkinkan atlas dan kepala berputar ke kiri dan kanan.",
+      "faktaAnatomiSederhana": "Axis adalah satu-satunya vertebra yang memiliki tonjolan dens, yang berfungsi sebagai 'poros putar' sehingga kepala bisa menoleh. Sekitar 50% gerakan rotasi kepala terjadi di sendi antara atlas dan axis."
+    },
+    {
+      "no": 5,
+      "objectBlender": "carpus.l",
+      "namaTampilanIndonesia": "Pergelangan tangan kiri",
+      "namaAnatomiLatin": "Ossa carpi sinistra",
+      "deskripsi": "Pergelangan tangan kiri terdiri dari delapan tulang karpal kecil yang tersusun dalam dua baris. Baris proksimal (scaphoid, lunate, triquetrum, pisiform) dan baris distal (trapezium, trapezoid, capitate, hamate) bekerja bersama untuk memungkinkan gerakan pergelangan tangan.",
+      "faktaAnatomiSederhana": "Terdapat delapan tulang karpal di setiap pergelangan tangan yang memungkinkan gerakan fleksi, ekstensi, dan sirkumduksi. Tulang scaphoid adalah yang paling sering patah di antara tulang karpal."
+    },
+    {
+      "no": 6,
+      "objectBlender": "carpus.r",
+      "namaTampilanIndonesia": "Pergelangan tangan kanan",
+      "namaAnatomiLatin": "Ossa carpi dextra",
+      "deskripsi": "Pergelangan tangan kanan terdiri dari delapan tulang karpal yang tersusun dalam dua baris, identik dengan sisi kiri. Susunan tulang ini membentuk terowongan karpal yang dilalui tendon dan saraf median.",
+      "faktaAnatomiSederhana": "Terowongan karpal di pergelangan tangan dibentuk oleh tulang-tulang karpal. Kompresi saraf median di terowongan ini menyebabkan sindrom terowongan karpal yang menyebabkan kesemutan dan nyeri pada tangan."
+    },
+    {
+      "no": 7,
+      "objectBlender": "cartilago_costalis_1.l",
+      "namaTampilanIndonesia": "Tulang rawan iga 1 kiri",
+      "namaAnatomiLatin": "Cartilago costalis I sinistra",
+      "deskripsi": "Tulang rawan iga pertama kiri adalah tulang rawan hialin yang menghubungkan ujung anterior iga 1 kiri dengan manubrium sterni. Berbeda dengan kartilago iga lainnya, kartilago iga 1 langsung menyatu (sinkondrosis) dengan manubrium tanpa sendi sinovial.",
+      "faktaAnatomiSederhana": "Tulang rawan iga pertama tidak memiliki sendi sejati dengan sternum, melainkan menyatu langsung. Ini membuat iga pertama sangat stabil dan hampir tidak bergerak saat bernapas."
+    },
+    {
+      "no": 8,
+      "objectBlender": "cartilago_costalis_1.r",
+      "namaTampilanIndonesia": "Tulang rawan iga 1 kanan",
+      "namaAnatomiLatin": "Cartilago costalis I dextra",
+      "deskripsi": "Tulang rawan iga pertama kanan adalah tulang rawan hialin yang menghubungkan iga 1 kanan dengan manubrium sterni secara langsung tanpa sendi sinovial.",
+      "faktaAnatomiSederhana": "Kartilago iga pertama kanan merupakan salah satu sambungan tulang rawan yang paling kuat di rangka dada karena menyatu langsung dengan sternum, bukan melalui sendi sejati."
+    },
+    {
+      "no": 9,
+      "objectBlender": "cartilago_costalis_2.l",
+      "namaTampilanIndonesia": "Tulang rawan iga 2 kiri",
+      "namaAnatomiLatin": "Cartilago costalis II sinistra",
+      "deskripsi": "Tulang rawan iga kedua kiri menghubungkan iga 2 kiri dengan sternum melalui sendi sternocostal, yaitu sendi sinovial yang memiliki rongga sendi kecil.",
+      "faktaAnatomiSederhana": "Persimpangan iga kedua dengan sternum digunakan sebagai patokan dalam pemeriksaan fisik jantung karena letaknya konsisten dan mudah diraba di dada."
+    },
+    {
+      "no": 10,
+      "objectBlender": "cartilago_costalis_2.r",
+      "namaTampilanIndonesia": "Tulang rawan iga 2 kanan",
+      "namaAnatomiLatin": "Cartilago costalis II dextra",
+      "deskripsi": "Tulang rawan iga kedua kanan menghubungkan iga 2 kanan dengan sternum. Sendi ini sering digunakan sebagai titik referensi dalam pemeriksaan klinik untuk menghitung level iga.",
+      "faktaAnatomiSederhana": "Persimpangan kartilago iga kedua kanan dengan sternum adalah titik referensi utama dokter untuk menghitung posisi iga dan menentukan lokasi pemeriksaan paru dan jantung."
+    },
+    {
+      "no": 11,
+      "objectBlender": "cartilago_costalis_3.l",
+      "namaTampilanIndonesia": "Tulang rawan iga 3 kiri",
+      "namaAnatomiLatin": "Cartilago costalis III sinistra",
+      "deskripsi": "Tulang rawan iga ketiga kiri menghubungkan iga 3 kiri ke sternum melalui sendi sternocostal yang memiliki sedikit ruang gerak untuk membantu pengembangan dada saat bernapas.",
+      "faktaAnatomiSederhana": "Kartilago iga 3 sampai 7 membentuk sendi sinovial sejati dengan sternum yang memberikan sedikit fleksibilitas agar rongga dada bisa mengembang dan mengempis saat bernapas."
+    },
+    {
+      "no": 12,
+      "objectBlender": "cartilago_costalis_3.r",
+      "namaTampilanIndonesia": "Tulang rawan iga 3 kanan",
+      "namaAnatomiLatin": "Cartilago costalis III dextra",
+      "deskripsi": "Tulang rawan iga ketiga kanan menghubungkan iga 3 kanan ke sternum, memungkinkan gerakan ritmis dinding dada selama pernapasan.",
+      "faktaAnatomiSederhana": "Kartilago iga ketiga adalah komponen fleksibel yang menyerap tekanan mekanis saat dada bergerak naik-turun selama pernapasan, sehingga mencegah patah tulang akibat gerakan berulang."
+    },
+    {
+      "no": 13,
+      "objectBlender": "cartilago_costalis_4.l",
+      "namaTampilanIndonesia": "Tulang rawan iga 4 kiri",
+      "namaAnatomiLatin": "Cartilago costalis IV sinistra",
+      "deskripsi": "Tulang rawan iga keempat kiri menghubungkan iga 4 kiri ke sternum, berperan aktif dalam mekanisme pernapasan dengan memungkinkan gerakan ke depan dan ke atas saat inspirasi.",
+      "faktaAnatomiSederhana": "Pada anak-anak, tulang rawan iga masih sangat lentur dan elastis. Seiring bertambahnya usia, kartilago iga dapat mengalami kalsifikasi sehingga menjadi lebih keras."
+    },
+    {
+      "no": 14,
+      "objectBlender": "cartilago_costalis_4.r",
+      "namaTampilanIndonesia": "Tulang rawan iga 4 kanan",
+      "namaAnatomiLatin": "Cartilago costalis IV dextra",
+      "deskripsi": "Tulang rawan iga keempat kanan menghubungkan iga 4 kanan ke sternum. Letaknya di tingkat yang berdekatan dengan posisi jantung, khususnya tepi kanan bawah jantung.",
+      "faktaAnatomiSederhana": "Kartilago iga keempat kanan berada sejajar dengan posisi katup trikuspidalis jantung, sehingga area ini penting dalam pemeriksaan auskultasi bunyi jantung."
+    },
+    {
+      "no": 15,
+      "objectBlender": "cartilago_costalis_5.l",
+      "namaTampilanIndonesia": "Tulang rawan iga 5 kiri",
+      "namaAnatomiLatin": "Cartilago costalis V sinistra",
+      "deskripsi": "Tulang rawan iga kelima kiri menghubungkan iga 5 kiri ke sternum. Ini adalah salah satu kartilago iga terpanjang yang menghubungkan iga secara langsung ke sternum.",
+      "faktaAnatomiSederhana": "Kartilago iga ke-5 kiri berada setinggi apeks (puncak) jantung, sehingga denyut jantung paling kuat terasa di area ini yang disebut ictus cordis atau denyut apeks."
+    },
+    {
+      "no": 16,
+      "objectBlender": "cartilago_costalis_5.r",
+      "namaTampilanIndonesia": "Tulang rawan iga 5 kanan",
+      "namaAnatomiLatin": "Cartilago costalis V dextra",
+      "deskripsi": "Tulang rawan iga kelima kanan menghubungkan iga 5 kanan ke sternum. Bersama dengan iga 1 hingga 7, ini termasuk kelompok kartilago iga sejati yang langsung ke sternum.",
+      "faktaAnatomiSederhana": "Kartilago iga 1 hingga 7 disebut kartilago iga sejati karena masing-masing terhubung langsung ke sternum. Kartilago iga 8 sampai 10 bergabung satu sama lain membentuk arcus costalis."
+    },
+    {
+      "no": 17,
+      "objectBlender": "clavicula.l",
+      "namaTampilanIndonesia": "Tulang selangka kiri",
+      "namaAnatomiLatin": "Clavicula sinistra",
+      "deskripsi": "Tulang selangka kiri adalah tulang panjang berbentuk S yang menghubungkan manubrium sterni dengan akromion scapula kiri. Merupakan satu-satunya tulang yang menghubungkan ekstremitas atas dengan kerangka aksial secara langsung.",
+      "faktaAnatomiSederhana": "Clavicula adalah tulang yang paling sering patah pada manusia, terutama akibat jatuh dengan tangan menopang tubuh. Tulang ini juga merupakan tulang panjang pertama yang mulai mengeras (osifikasi) pada perkembangan janin."
+    },
+    {
+      "no": 18,
+      "objectBlender": "clavicula.r",
+      "namaTampilanIndonesia": "Tulang selangka kanan",
+      "namaAnatomiLatin": "Clavicula dextra",
+      "deskripsi": "Tulang selangka kanan adalah tulang panjang berbentuk S yang menghubungkan sternum dengan scapula kanan, berfungsi sebagai penyangga bahu dan melindungi struktur neurovaskular di bawahnya seperti arteri subklavia dan pleksus brakialis.",
+      "faktaAnatomiSederhana": "Clavicula kanan bertindak sebagai penopang bahu agar tidak jatuh ke bawah dan ke depan. Tanpa clavicula, bahu tidak bisa diangkat melebihi posisi horizontal."
+    },
+    {
+      "no": 19,
+      "objectBlender": "coccyx",
+      "namaTampilanIndonesia": "Tulang ekor",
+      "namaAnatomiLatin": "Os coccygis / Coccyx",
+      "deskripsi": "Tulang ekor (coccyx) adalah tulang paling kaudal dari kolumna vertebralis, terbentuk dari fusi 3–5 ruas tulang belakang yang mengalami rudimentasi. Coccyx berfungsi sebagai tempat perlekatan beberapa otot dasar panggul dan ligamen.",
+      "faktaAnatomiSederhana": "Coccyx adalah sisa evolusioner dari tulang ekor nenek moyang kita. Meski kecil, tulang ini penting sebagai titik perlekatan otot dasar panggul yang membantu menopang organ-organ pelvis."
+    },
+    {
+      "no": 20,
+      "objectBlender": "corpus_sterni",
+      "namaTampilanIndonesia": "Badan tulang dada",
+      "namaAnatomiLatin": "Corpus sterni",
+      "deskripsi": "Badan sternum (corpus sterni) adalah bagian terbesar dan terpanjang dari sternum, terletak di antara manubrium sterni di atas dan processus xiphoideus di bawah. Tulang rawan iga 2 hingga 7 melekat padanya melalui sendi sternocostal.",
+      "faktaAnatomiSederhana": "Corpus sterni adalah lokasi kompresi dada saat resusitasi jantung paru (RJP). Dengan menekan bagian ini secara ritmis, aliran darah buatan bisa dihasilkan untuk mensirkulasikan darah ke organ vital."
+    },
+    {
+      "no": 21,
+      "objectBlender": "costa_01.l",
+      "namaTampilanIndonesia": "Iga 1 kiri",
+      "namaAnatomiLatin": "Costa I sinistra",
+      "deskripsi": "Iga pertama kiri adalah iga terpendek, terlebar, dan paling melengkung. Berhubungan dengan vertebra thoracica 1 di belakang dan manubrium sterni di depan melalui kartilago. Iga ini melindungi arteri subklavia dan vena subklavia kiri.",
+      "faktaAnatomiSederhana": "Iga pertama adalah yang paling pendek di antara semua iga. Di permukaan atasnya terdapat alur khusus yang dilalui arteri dan vena subklavia, sehingga fraktur iga pertama bisa berbahaya karena berisiko melukai pembuluh darah besar."
+    },
+    {
+      "no": 22,
+      "objectBlender": "costa_01.r",
+      "namaTampilanIndonesia": "Iga 1 kanan",
+      "namaAnatomiLatin": "Costa I dextra",
+      "deskripsi": "Iga pertama kanan adalah iga terpendek dengan orientasi hampir horizontal. Di bagian atasnya terdapat tonjolan (tuberculum scaleni) sebagai tempat melekat otot skalenus anterior, serta alur untuk arteri dan vena subklavia kanan.",
+      "faktaAnatomiSederhana": "Iga pertama kanan letaknya tersembunyi di bawah tulang selangka dan sulit diraba dari luar. Patah iga ini memerlukan gaya yang sangat besar sehingga bila terjadi, dokter perlu mewaspadai kemungkinan kerusakan pembuluh darah besar."
+    },
+    {
+      "no": 23,
+      "objectBlender": "costa_02.l",
+      "namaTampilanIndonesia": "Iga 2 kiri",
+      "namaAnatomiLatin": "Costa II sinistra",
+      "deskripsi": "Iga kedua kiri berhubungan dengan vertebra thoracica 1 dan 2, serta menempel ke sternum di persimpangan manubrium dan corpus sterni (angulus sterni). Iga ini lebih panjang dari iga pertama dan mulai membentuk dinding lateral rongga dada.",
+      "faktaAnatomiSederhana": "Iga kedua mudah diraba karena menempel tepat di persimpangan manubrium dan corpus sterni yang teraba sebagai tonjolan (angulus Ludovici atau sternal angle), sehingga dijadikan patokan untuk menghitung iga dari luar tubuh."
+    },
+    {
+      "no": 24,
+      "objectBlender": "costa_02.r",
+      "namaTampilanIndonesia": "Iga 2 kanan",
+      "namaAnatomiLatin": "Costa II dextra",
+      "deskripsi": "Iga kedua kanan berhubungan dengan vertebra thoracica 1 dan 2 serta sternum di angulus sterni. Persimpangan iga kedua dengan sternum adalah titik referensi penting dalam pemeriksaan klinis.",
+      "faktaAnatomiSederhana": "Titik perlekatan iga kedua di sternum disebut angulus Ludovici, yang teraba sebagai tonjolan horizontal di sternum. Ini adalah patokan utama dokter untuk menghitung level iga dalam pemeriksaan dada."
+    },
+    {
+      "no": 25,
+      "objectBlender": "costa_03.l",
+      "namaTampilanIndonesia": "Iga 3 kiri",
+      "namaAnatomiLatin": "Costa III sinistra",
+      "deskripsi": "Iga ketiga kiri berhubungan dengan vertebra thoracica 2 dan 3, membentuk bagian dinding anterolateral rongga dada. Iga ini lebih panjang dari iga kedua dan mulai menampilkan bentuk iga yang lebih khas.",
+      "faktaAnatomiSederhana": "Iga ketiga sampai ketujuh membentuk dinding lateral utama rongga dada yang melindungi paru-paru. Nyeri di area iga ketiga kiri dapat menandakan berbagai kondisi mulai dari kostokondritis hingga masalah jantung."
+    },
+    {
+      "no": 26,
+      "objectBlender": "costa_03.r",
+      "namaTampilanIndonesia": "Iga 3 kanan",
+      "namaAnatomiLatin": "Costa III dextra",
+      "deskripsi": "Iga ketiga kanan berhubungan dengan vertebra thoracica 2 dan 3, turut membentuk dinding anterolateral rongga dada kanan. Area di bawah iga ketiga kanan merupakan bagian atas lobus kanan paru-paru.",
+      "faktaAnatomiSederhana": "Iga ketiga dan keempat kanan berada di atas area paru-paru kanan bagian atas. Infeksi pada puncak paru (seperti tuberkulosis) dapat menyebabkan nyeri di area iga ini."
+    },
+    {
+      "no": 27,
+      "objectBlender": "costa_04.l",
+      "namaTampilanIndonesia": "Iga 4 kiri",
+      "namaAnatomiLatin": "Costa IV sinistra",
+      "deskripsi": "Iga keempat kiri berhubungan dengan vertebra thoracica 3 dan 4. Di level iga keempat kiri, jantung mulai terletak di belakang sternum, dan ujung kiri iga ini berada di dekat batas kiri jantung.",
+      "faktaAnatomiSederhana": "Iga keempat kiri berada setinggi tepi atas jantung. Area di antara iga ketiga hingga kelima di sisi kiri adalah lokasi terbaik untuk mendengarkan bunyi katup pulmonal dan aorta dengan stetoskop."
+    },
+    {
+      "no": 28,
+      "objectBlender": "costa_04.r",
+      "namaTampilanIndonesia": "Iga 4 kanan",
+      "namaAnatomiLatin": "Costa IV dextra",
+      "deskripsi": "Iga keempat kanan berhubungan dengan vertebra thoracica 3 dan 4. Area di bawah iga keempat kanan dilalui oleh fisura horizontal yang memisahkan lobus atas dan lobus tengah paru kanan.",
+      "faktaAnatomiSederhana": "Di level iga keempat kanan terdapat fisura horizontal paru kanan. Dokter menggunakan patokan ini saat melakukan pemeriksaan perkusi dan auskultasi untuk menilai batas-batas lobus paru."
+    },
+    {
+      "no": 29,
+      "objectBlender": "costa_05.l",
+      "namaTampilanIndonesia": "Iga 5 kiri",
+      "namaAnatomiLatin": "Costa V sinistra",
+      "deskripsi": "Iga kelima kiri berhubungan dengan vertebra thoracica 4 dan 5. Di tingkat iga kelima kiri terdapat lokasi apeks jantung (ictus cordis), yaitu titik denyut jantung paling kuat yang biasanya teraba di ruang interkostal kelima garis midklavikular kiri.",
+      "faktaAnatomiSederhana": "Iga kelima kiri menandai level apeks jantung. Dokter mencari denyut jantung (ictus cordis) di ruang interkostal antara iga kelima dan keenam kiri, sekitar 1 cm medial dari garis putting susu kiri."
+    },
+    {
+      "no": 30,
+      "objectBlender": "costa_05.r",
+      "namaTampilanIndonesia": "Iga 5 kanan",
+      "namaAnatomiLatin": "Costa V dextra",
+      "deskripsi": "Iga kelima kanan berhubungan dengan vertebra thoracica 4 dan 5, membentuk bagian tengah dinding dada kanan. Area ini berada di atas rongga pleura kanan bagian tengah.",
+      "faktaAnatomiSederhana": "Iga kelima kanan adalah salah satu iga yang paling rentan terhadap fraktur akibat trauma tumpul dada, seperti benturan setir mobil atau jatuh. Fraktur beberapa iga sekaligus dapat menyebabkan flail chest yang berbahaya."
+    },
+    {
+      "no": 31,
+      "objectBlender": "costa_06.l",
+      "namaTampilanIndonesia": "Iga 6 kiri",
+      "namaAnatomiLatin": "Costa VI sinistra",
+      "deskripsi": "Iga keenam kiri berhubungan dengan vertebra thoracica 5 dan 6. Ini adalah iga terakhir di antara iga sejati (costae verae) yang memiliki kartilago menempel langsung ke corpus sterni.",
+      "faktaAnatomiSederhana": "Iga keenam merupakan salah satu dari tujuh iga sejati. Di bagian bawah iga ini terdapat alur (sulcus costae) yang melindungi berkas neurovaskular interkostal berupa arteri, vena, dan saraf interkostal."
+    },
+    {
+      "no": 32,
+      "objectBlender": "costa_06.r",
+      "namaTampilanIndonesia": "Iga 6 kanan",
+      "namaAnatomiLatin": "Costa VI dextra",
+      "deskripsi": "Iga keenam kanan berhubungan dengan vertebra thoracica 5 dan 6. Di bawah iga ini pada sisi kanan terdapat lobus kanan bawah paru-paru yang terpisah dari lobus tengah oleh fisura oblikus.",
+      "faktaAnatomiSederhana": "Iga keenam kanan berada di level transisi paru tengah dan bawah. Fisura oblikus paru kanan berjalan dari vertebra thoracica IV di belakang menuju ruang interkostal antara iga keenam dan ketujuh di depan."
+    },
+    {
+      "no": 33,
+      "objectBlender": "costa_07.l",
+      "namaTampilanIndonesia": "Iga 7 kiri",
+      "namaAnatomiLatin": "Costa VII sinistra",
+      "deskripsi": "Iga ketujuh kiri adalah iga terakhir dari kelompok iga sejati. Kartilagonya menempel langsung ke batas bawah corpus sterni atau processus xiphoideus. Panjangnya mendekati maksimum di antara semua iga.",
+      "faktaAnatomiSederhana": "Iga ketujuh adalah iga terpanjang di antara iga sejati dan menandai batas bawah sambungan langsung iga dengan sternum. Di bawah iga ini terdapat diafragma yang memisahkan rongga dada dari rongga perut."
+    },
+    {
+      "no": 34,
+      "objectBlender": "costa_07.r",
+      "namaTampilanIndonesia": "Iga 7 kanan",
+      "namaAnatomiLatin": "Costa VII dextra",
+      "deskripsi": "Iga ketujuh kanan adalah iga sejati terakhir di sisi kanan. Kartilagonya terhubung langsung ke sternum di bagian bawah corpus sterni.",
+      "faktaAnatomiSederhana": "Iga ketujuh kanan menandai batas bawah koneksi langsung antara iga dan sternum. Di bawah iga ini, iga-iga berikutnya tidak lagi berhubungan langsung dengan sternum."
+    },
+    {
+      "no": 35,
+      "objectBlender": "costa_08.l",
+      "namaTampilanIndonesia": "Iga 8 kiri",
+      "namaAnatomiLatin": "Costa VIII sinistra",
+      "deskripsi": "Iga kedelapan kiri adalah iga pertama dari kelompok iga palsu (costae spuriae). Kartilagonya tidak menempel langsung ke sternum, melainkan bergabung dengan kartilago iga ketujuh dan bersama-sama membentuk arcus costalis.",
+      "faktaAnatomiSederhana": "Iga kedelapan adalah iga palsu pertama, yang berarti kartilagonya tidak menempel langsung ke sternum. Sebaliknya, kartilago iga 8, 9, dan 10 bergabung membentuk lengkungan iga (arcus costalis) yang bisa diraba di perut bagian atas."
+    },
+    {
+      "no": 36,
+      "objectBlender": "costa_08.r",
+      "namaTampilanIndonesia": "Iga 8 kanan",
+      "namaAnatomiLatin": "Costa VIII dextra",
+      "deskripsi": "Iga kedelapan kanan adalah iga palsu pertama di sisi kanan. Kartilagonya bergabung dengan kartilago iga di atasnya dan berkontribusi membentuk arcus costalis kanan.",
+      "faktaAnatomiSederhana": "Di balik iga kedelapan kanan, terdapat hati (hepar) pada bagian atas dan ginjal kanan pada bagian posterior bawah. Nyeri di bawah iga kanan bisa berhubungan dengan masalah hati atau kandung empedu."
+    },
+    {
+      "no": 37,
+      "objectBlender": "costa_09.l",
+      "namaTampilanIndonesia": "Iga 9 kiri",
+      "namaAnatomiLatin": "Costa IX sinistra",
+      "deskripsi": "Iga kesembilan kiri adalah iga palsu kedua di sisi kiri. Kartilagonya bergabung dengan kartilago iga kedelapan dan ketujuh untuk membentuk arcus costalis kiri.",
+      "faktaAnatomiSederhana": "Di bawah iga kesembilan kiri terdapat limpa. Pembesaran limpa (splenomegali) dapat dirasakan di bawah arcus costalis kiri dan sering terdeteksi saat dokter meraba perut di area ini."
+    },
+    {
+      "no": 38,
+      "objectBlender": "costa_09.r",
+      "namaTampilanIndonesia": "Iga 9 kanan",
+      "namaAnatomiLatin": "Costa IX dextra",
+      "deskripsi": "Iga kesembilan kanan adalah iga palsu kedua di sisi kanan, kartilagonya bergabung membentuk bagian arcus costalis kanan.",
+      "faktaAnatomiSederhana": "Di bawah iga kesembilan kanan terdapat bagian bawah hati dan kandung empedu. Nyeri tajam di area ini saat ditekan dapat mengindikasikan kolesistitis (radang kandung empedu) yang dikenal sebagai tanda Murphy positif."
+    },
+    {
+      "no": 39,
+      "objectBlender": "costa_10.l",
+      "namaTampilanIndonesia": "Iga 10 kiri",
+      "namaAnatomiLatin": "Costa X sinistra",
+      "deskripsi": "Iga kesepuluh kiri adalah iga palsu terakhir yang ikut membentuk arcus costalis kiri. Ujung anteriornya bergabung dengan kartilago iga di atasnya.",
+      "faktaAnatomiSederhana": "Iga ke-8, 9, dan 10 bersama-sama membentuk arcus costalis yang teraba sebagai lengkungan di perut bagian atas. Lengkung ini penting dalam pemeriksaan fisik untuk menilai organ abdomen atas."
+    },
+    {
+      "no": 40,
+      "objectBlender": "costa_10.r",
+      "namaTampilanIndonesia": "Iga 10 kanan",
+      "namaAnatomiLatin": "Costa X dextra",
+      "deskripsi": "Iga kesepuluh kanan adalah iga palsu terakhir yang berartikulasi tidak langsung dengan sternum melalui bergabung dengan kartilago iga di atasnya membentuk arcus costalis kanan.",
+      "faktaAnatomiSederhana": "Iga kesepuluh menandai batas bawah dari kelompok iga palsu. Di belakangnya terdapat ginjal kanan bagian atas dan kelenjar adrenal kanan yang terletak retroperitoneal."
+    },
+    {
+      "no": 41,
+      "objectBlender": "costa_11.l",
+      "namaTampilanIndonesia": "Iga 11 kiri",
+      "namaAnatomiLatin": "Costa XI sinistra",
+      "deskripsi": "Iga kesebelas kiri adalah iga melayang pertama di sisi kiri. Hanya menempel ke vertebra thoracica 11 di bagian posterior dan ujung anteriornya bebas tidak terhubung ke sternum maupun ke iga lain.",
+      "faktaAnatomiSederhana": "Iga melayang (iga 11 dan 12) tidak memiliki sambungan di ujung depannya, sehingga ujung anteriornya 'melayang' bebas di dalam dinding perut. Iga ini dilindungi oleh otot-otot pinggang di bagian belakang."
+    },
+    {
+      "no": 42,
+      "objectBlender": "costa_11.r",
+      "namaTampilanIndonesia": "Iga 11 kanan",
+      "namaAnatomiLatin": "Costa XI dextra",
+      "deskripsi": "Iga kesebelas kanan adalah iga melayang pertama di sisi kanan, dengan ujung posterior menempel ke vertebra thoracica 11 dan ujung anterior bebas.",
+      "faktaAnatomiSederhana": "Iga melayang kanan melindungi ginjal kanan bagian atas dari belakang. Saat dokter melakukan pyelografi atau prosedur pada ginjal, posisi iga ini menjadi panduan anatomi penting."
+    },
+    {
+      "no": 43,
+      "objectBlender": "costa_12.l",
+      "namaTampilanIndonesia": "Iga 12 kiri",
+      "namaAnatomiLatin": "Costa XII sinistra",
+      "deskripsi": "Iga kedua belas kiri adalah iga melayang terakhir dan paling kaudal di sisi kiri. Panjangnya bervariasi, dan ujung anteriornya bebas di dalam dinding otot abdomen posterior.",
+      "faktaAnatomiSederhana": "Iga keduabelas sangat pendek dan berada di belakang, di atas ginjal kiri. Ini adalah penanda penting dalam bedah urologi karena sering digunakan sebagai panduan untuk mengakses ginjal melalui sayatan posterior (flank incision)."
+    },
+    {
+      "no": 44,
+      "objectBlender": "costa_12.r",
+      "namaTampilanIndonesia": "Iga 12 kanan",
+      "namaAnatomiLatin": "Costa XII dextra",
+      "deskripsi": "Iga kedua belas kanan adalah iga paling bawah dan terpendek, dengan ujung posterior menempel ke vertebra thoracica 12 dan ujung anterior bebas di dalam otot dinding perut posterior kanan.",
+      "faktaAnatomiSederhana": "Iga keduabelas kanan adalah patokan anatomi penting dalam bedah ginjal dan urologi. Ahli bedah menggunakan iga ini sebagai titik referensi untuk membuat sayatan pada prosedur nefrektomi atau pielolitotomi."
+    },
+    {
+      "no": 45,
+      "objectBlender": "coxae.l",
+      "namaTampilanIndonesia": "Tulang panggul kiri",
+      "namaAnatomiLatin": "Os coxae sinistrum",
+      "deskripsi": "Os coxae kiri (tulang pinggul kiri) adalah tulang besar berbentuk tidak teratur yang tersusun dari tiga tulang yang menyatu: ilium (bagian atas, seperti sayap), ischium (bagian bawah-belakang), dan pubis (bagian depan). Ketiganya bertemu di acetabulum, mangkuk sendi yang menampung kepala femur.",
+      "faktaAnatomiSederhana": "Os coxae kiri terbentuk dari penyatuan tiga tulang terpisah yang mulai menyatu saat anak berusia 15-17 tahun dan sempurna pada usia sekitar 25 tahun. Acetabulum di tulang ini adalah soket sendi pinggul yang menampung tulang paha."
+    },
+    {
+      "no": 46,
+      "objectBlender": "coxae.r",
+      "namaTampilanIndonesia": "Tulang panggul kanan",
+      "namaAnatomiLatin": "Os coxae dextrum",
+      "deskripsi": "Os coxae kanan identik dengan sisi kiri dan juga tersusun dari ilium, ischium, dan pubis. Bersama dengan os coxae kiri dan sacrum, keduanya membentuk gelang panggul (pelvis) yang melindungi organ-organ dalam panggul.",
+      "faktaAnatomiSederhana": "Os coxae kanan dan kiri bersama sacrum membentuk rongga panggul (pelvis). Pada wanita, panggul lebih lebar dan dangkal untuk memudahkan persalinan, sedangkan pada pria lebih sempit dan dalam."
+    },
+    {
+      "no": 47,
+      "objectBlender": "cranium",
+      "namaTampilanIndonesia": "Tengkorak",
+      "namaAnatomiLatin": "Cranium",
+      "deskripsi": "Tengkorak (cranium) terdiri dari dua bagian: neurokranium yang membungkus otak (terdiri dari os frontale, os parietale, os temporale, os occipitale, os sphenoidale, dan os ethmoidale), serta viscerokranium yang membentuk wajah. Tulang-tulang ini disatukan oleh sutura fibrosa yang unik.",
+      "faktaAnatomiSederhana": "Tengkorak bayi memiliki ubun-ubun (fontanela) yaitu celah lunak di antara tulang yang belum menyatu sempurna, yang menutup sekitar usia 18 bulan. Ini memungkinkan kepala bayi berubah bentuk saat melewati jalan lahir dan otak tumbuh pesat setelah lahir."
+    },
+    {
+      "no": 48,
+      "objectBlender": "femur.l",
+      "namaTampilanIndonesia": "Tulang paha kiri",
+      "namaAnatomiLatin": "Femur sinistrum",
+      "deskripsi": "Femur kiri adalah tulang terpanjang dan terkuat dalam tubuh manusia. Bagian atasnya memiliki kepala femur (caput femoris) yang masuk ke acetabulum, leher femur, trochanter mayor dan minor sebagai tempat perlekatan otot. Bagian bawahnya membentuk kondilus untuk sendi lutut.",
+      "faktaAnatomiSederhana": "Femur adalah tulang terpanjang di tubuh manusia, rata-rata sekitar 45-50 cm pada pria dewasa. Leher femur (bagian antara kepala dan batang) adalah lokasi fraktur paling umum pada orang tua akibat osteoporosis, terutama setelah jatuh."
+    },
+    {
+      "no": 49,
+      "objectBlender": "femur.r",
+      "namaTampilanIndonesia": "Tulang paha kanan",
+      "namaAnatomiLatin": "Femur dextrum",
+      "deskripsi": "Femur kanan identik secara struktur dengan femur kiri. Tulang ini bersendi dengan acetabulum di atas (sendi panggul) dan dengan tibia serta patella di bawah (sendi lutut). Sumbunya sedikit miring ke medial dari vertikal karena lebar panggul.",
+      "faktaAnatomiSederhana": "Femur kanan (dan kiri) berada pada sudut miring sekitar 6 derajat dari vertikal karena lebar panggul. Pada wanita, sudut kemiringan ini biasanya lebih besar, yang memengaruhi cara berjalan dan risiko cedera lutut."
+    },
+    {
+      "no": 50,
+      "objectBlender": "fibula.l",
+      "namaTampilanIndonesia": "Tulang betis kiri",
+      "namaAnatomiLatin": "Fibula sinistra",
+      "deskripsi": "Fibula kiri adalah tulang panjang ramping yang terletak di sisi lateral tungkai bawah kiri, sejajar dengan tibia. Tidak ikut menopang berat tubuh secara langsung, tetapi berfungsi sebagai tempat perlekatan otot dan membentuk bagian lateral sendi pergelangan kaki (malleolus lateralis).",
+      "faktaAnatomiSederhana": "Fibula hampir tidak menanggung berat badan (hanya sekitar 16%), sehingga segmen fibula sering digunakan sebagai donor tulang (bone graft) dalam rekonstruksi tulang lain. Malleolus lateralis fibula adalah 'mata kaki' yang teraba di sisi luar kaki."
+    },
+    {
+      "no": 51,
+      "objectBlender": "fibula.r",
+      "namaTampilanIndonesia": "Tulang betis kanan",
+      "namaAnatomiLatin": "Fibula dextra",
+      "deskripsi": "Fibula kanan adalah tulang ramping di sisi lateral tungkai bawah kanan. Bagian bawahnya (malleolus lateralis) membentuk dinding lateral sendi pergelangan kaki bersama dengan tibia.",
+      "faktaAnatomiSederhana": "Fibula kanan sering patah pada cedera pergelangan kaki. Fraktur malleolus lateralis (ujung bawah fibula) adalah fraktur pergelangan kaki yang paling umum terjadi, biasanya akibat torsi atau gerakan memutar paksa."
+    },
+    {
+      "no": 52,
+      "objectBlender": "hallux.l",
+      "namaTampilanIndonesia": "Ibu jari kaki kiri",
+      "namaAnatomiLatin": "Hallux sinister",
+      "deskripsi": "Ibu jari kaki kiri (hallux) terdiri dari dua ruas tulang (phalanx proximal dan phalanx distal) yang lebih besar dibanding jari kaki lainnya. Berartikulasi dengan metatarsal pertama dan sangat penting dalam fase tolakan saat berjalan.",
+      "faktaAnatomiSederhana": "Ibu jari kaki menyumbang sekitar 40% dari kekuatan tolakan saat berjalan dan berlari. Bunion (hallux valgus) adalah kondisi di mana ibu jari kaki miring ke arah jari kedua, yang menyebabkan tonjolan menyakitkan di sisi dalam kaki."
+    },
+    {
+      "no": 53,
+      "objectBlender": "hallux.r",
+      "namaTampilanIndonesia": "Ibu jari kaki kanan",
+      "namaAnatomiLatin": "Hallux dexter",
+      "deskripsi": "Ibu jari kaki kanan (hallux) identik dengan sisi kiri. Sendi metatarsofalangeal pertama (antara metatarsal 1 dan phalanx proximal hallux) adalah sendi yang paling sering terkena gout (radang sendi akibat asam urat).",
+      "faktaAnatomiSederhana": "Sendi ibu jari kaki kanan adalah lokasi tersering serangan gout. Kondisi ini dikenal sebagai podagra, di mana kristal asam urat menumpuk di sendi menyebabkan nyeri hebat, kemerahan, dan pembengkakan."
+    },
+    {
+      "no": 54,
+      "objectBlender": "humerus.l",
+      "namaTampilanIndonesia": "Tulang lengan atas kiri",
+      "namaAnatomiLatin": "Humerus sinister",
+      "deskripsi": "Humerus kiri adalah tulang panjang lengan atas yang menghubungkan sendi bahu (gleno-humeral) di atas dengan sendi siku di bawah. Bagian atasnya memiliki caput humeri berbentuk bulat yang masuk ke glenoid scapula. Di bagian tengah terdapat alur spiral untuk saraf radialis.",
+      "faktaAnatomiSederhana": "Saraf radialis berjalan di alur spiral pada permukaan posterior humerus. Fraktur humerus di bagian tengah sering merusak saraf radialis, menyebabkan 'wrist drop' yaitu ketidakmampuan mengangkat pergelangan tangan ke atas."
+    },
+    {
+      "no": 55,
+      "objectBlender": "humerus.r",
+      "namaTampilanIndonesia": "Tulang lengan atas kanan",
+      "namaAnatomiLatin": "Humerus dexter",
+      "deskripsi": "Humerus kanan identik strukturnya dengan sisi kiri. Di bagian bawahnya terdapat epikondilus medial dan lateral sebagai tempat perlekatan otot-otot lengan bawah. Fraktur suprakondiler (di atas kondilus) adalah fraktur humerus paling umum pada anak-anak.",
+      "faktaAnatomiSederhana": "Epikondilus lateral humerus kanan adalah lokasi nyeri pada kondisi 'tennis elbow' (lateral epicondylitis), sedangkan epikondilus medial adalah lokasi nyeri pada 'golfer's elbow'. Keduanya akibat penggunaan berlebihan otot lengan bawah."
+    },
+    {
+      "no": 56,
+      "objectBlender": "mandibula",
+      "namaTampilanIndonesia": "Rahang bawah",
+      "namaAnatomiLatin": "Mandibula",
+      "deskripsi": "Mandibula adalah satu-satunya tulang wajah yang dapat bergerak. Berbentuk seperti tapal kuda, terdiri dari badan (corpus mandibulae) yang horizontal dan dua cabang (ramus mandibulae) yang vertikal. Berartikulasi dengan os temporale membentuk sendi temporomandibular (TMJ).",
+      "faktaAnatomiSederhana": "Mandibula adalah satu-satunya tulang tengkorak yang dapat digerakkan. Sendi temporomandibular (TMJ) adalah sendi yang paling sering digunakan dalam tubuh karena bekerja setiap kita berbicara, mengunyah, menelan, dan bernapas melalui mulut."
+    },
+    {
+      "no": 57,
+      "objectBlender": "manubrium_sterni",
+      "namaTampilanIndonesia": "Hulu tulang dada",
+      "namaAnatomiLatin": "Manubrium sterni",
+      "deskripsi": "Manubrium sterni adalah bagian paling atas sternum berbentuk trapesoid. Di bagian atasnya terdapat incisura jugularis (lekukan yang teraba di tengah leher bawah), serta tempat perlekatan tulang selangka (clavicula) dan kartilago iga pertama kiri-kanan.",
+      "faktaAnatomiSederhana": "Manubrium dan corpus sterni bertemu di angulus sterni (sudut Louis), yang teraba sebagai tonjolan horizontal dan menjadi patokan untuk menemukan iga kedua. Di belakang manubrium terdapat arkus aorta, vena kava superior, dan bifurkasi trakea."
+    },
+    {
+      "no": 58,
+      "objectBlender": "metacarpale_01.l",
+      "namaTampilanIndonesia": "Tulang telapak tangan 1 kiri",
+      "namaAnatomiLatin": "Os metacarpale I sinistrum",
+      "deskripsi": "Metacarpal pertama kiri adalah tulang telapak tangan yang paling pendek dan paling mobile. Bersendi dengan tulang trapezium (karpal) melalui sendi sadel (saddle joint) yang memungkinkan gerakan oposisi ibu jari.",
+      "faktaAnatomiSederhana": "Metacarpal pertama adalah dasar dari ibu jari dan memiliki sendi berbentuk pelana (saddle joint) yang unik, memungkinkan ibu jari bergerak ke segala arah termasuk oposisi. Kemampuan oposisi ibu jari inilah yang membedakan tangan manusia dari kebanyakan hewan."
+    },
+    {
+      "no": 59,
+      "objectBlender": "metacarpale_01.r",
+      "namaTampilanIndonesia": "Tulang telapak tangan 1 kanan",
+      "namaAnatomiLatin": "Os metacarpale I dextrum",
+      "deskripsi": "Metacarpal pertama kanan identik strukturnya dengan sisi kiri, bersendi dengan trapezium melalui sendi sadel carpometacarpal yang sangat mobile.",
+      "faktaAnatomiSederhana": "Fraktur 'Bennett' adalah fraktur pada pangkal metacarpal pertama kanan yang sangat umum terjadi akibat pukulan atau jatuh dengan ibu jari terentang. Ini sering terjadi pada petinju dan olahraga kontak."
+    },
+    {
+      "no": 60,
+      "objectBlender": "metacarpale_02.l",
+      "namaTampilanIndonesia": "Tulang telapak tangan 2 kiri",
+      "namaAnatomiLatin": "Os metacarpale II sinistrum",
+      "deskripsi": "Metacarpal kedua kiri adalah metacarpal terpanjang dan paling rigid. Bersendi dengan trapezoid, capitate, dan metacarpal pertama dan ketiga. Stabilitasnya tinggi karena menjadi dasar jari telunjuk.",
+      "faktaAnatomiSederhana": "Metacarpal kedua adalah tulang yang paling stabil di telapak tangan. Sendi antara metacarpal kedua dan tulang karpal hampir tidak bergerak, yang memberikan kestabilan saat memegang benda atau memukul."
+    },
+    {
+      "no": 61,
+      "objectBlender": "metacarpale_02.r",
+      "namaTampilanIndonesia": "Tulang telapak tangan 2 kanan",
+      "namaAnatomiLatin": "Os metacarpale II dextrum",
+      "deskripsi": "Metacarpal kedua kanan adalah tulang telapak tangan terpanjang yang menjadi pangkal jari telunjuk.",
+      "faktaAnatomiSederhana": "Fraktur 'Boxer's fracture' sering terjadi pada leher metacarpal kelima akibat pukulan, tapi fraktur metacarpal kedua akibat tekanan langsung juga umum pada atlet dan pekerja manual."
+    },
+    {
+      "no": 62,
+      "objectBlender": "metacarpale_03.l",
+      "namaTampilanIndonesia": "Tulang telapak tangan 3 kiri",
+      "namaAnatomiLatin": "Os metacarpale III sinistrum",
+      "deskripsi": "Metacarpal ketiga kiri adalah pangkal jari tengah dan memiliki processus styloideus yang menonjol di bagian proksimalnya. Bersendi dengan capitate, metacarpal kedua, dan keempat.",
+      "faktaAnatomiSederhana": "Metacarpal ketiga dapat diidentifikasi dengan adanya tonjolan kecil (processus styloideus) di pangkalnya yang teraba di punggung tangan bagian tengah. Tonjolan ini membantu perlekatan ligamen di pergelangan tangan."
+    },
+    {
+      "no": 63,
+      "objectBlender": "metacarpale_03.r",
+      "namaTampilanIndonesia": "Tulang telapak tangan 3 kanan",
+      "namaAnatomiLatin": "Os metacarpale III dextrum",
+      "deskripsi": "Metacarpal ketiga kanan adalah tulang telapak tangan yang menjadi pangkal jari tengah, dengan processus styloideus sebagai ciri khasnya.",
+      "faktaAnatomiSederhana": "Jari tengah dengan metacarpal ketiganya memiliki rentang gerak paling terbatas di antara jari-jari lainnya karena posisi sentralnya yang menerima distribusi gaya dari keempat sisi."
+    },
+    {
+      "no": 64,
+      "objectBlender": "metacarpale_04.l",
+      "namaTampilanIndonesia": "Tulang telapak tangan 4 kiri",
+      "namaAnatomiLatin": "Os metacarpale IV sinistrum",
+      "deskripsi": "Metacarpal keempat kiri adalah tulang telapak tangan pangkal jari manis. Bersendi dengan hamate, capitate, metacarpal ketiga dan kelima. Lebih mobile dibandingkan metacarpal kedua dan ketiga.",
+      "faktaAnatomiSederhana": "Metacarpal keempat dan kelima memiliki lebih banyak kebebasan gerak dibanding metacarpal kedua dan ketiga, yang memungkinkan telapak tangan sedikit melengkung untuk memegang benda bulat dengan lebih baik."
+    },
+    {
+      "no": 65,
+      "objectBlender": "metacarpale_04.r",
+      "namaTampilanIndonesia": "Tulang telapak tangan 4 kanan",
+      "namaAnatomiLatin": "Os metacarpale IV dextrum",
+      "deskripsi": "Metacarpal keempat kanan adalah pangkal jari manis kanan, bersendi dengan hamate dan metacarpal di sekitarnya.",
+      "faktaAnatomiSederhana": "Metacarpal keempat bersama kelima bersendi dengan hamate, tulang karpal berbentuk kait. Tonjolan hamate dapat menyebabkan fraktur dan nyeri di area pangkal telapak tangan sisi kelingking."
+    },
+    {
+      "no": 66,
+      "objectBlender": "metacarpale_05.l",
+      "namaTampilanIndonesia": "Tulang telapak tangan 5 kiri",
+      "namaAnatomiLatin": "Os metacarpale V sinistrum",
+      "deskripsi": "Metacarpal kelima kiri adalah tulang telapak tangan yang menjadi pangkal jari kelingking. Paling mobile di antara metacarpal lainnya dan bersendi dengan hamate.",
+      "faktaAnatomiSederhana": "Fraktur leher metacarpal kelima disebut 'Boxer's fracture' karena sering terjadi akibat pukulan kepalan tangan. Ini adalah fraktur metacarpal yang paling sering terjadi, ditandai dengan kepala metacarpal yang tertekan ke bawah."
+    },
+    {
+      "no": 67,
+      "objectBlender": "metacarpale_05.r",
+      "namaTampilanIndonesia": "Tulang telapak tangan 5 kanan",
+      "namaAnatomiLatin": "Os metacarpale V dextrum",
+      "deskripsi": "Metacarpal kelima kanan identik strukturnya dengan sisi kiri dan merupakan pangkal jari kelingking kanan.",
+      "faktaAnatomiSederhana": "Metacarpal kelima kanan adalah lokasi tersering fraktur tangan, yang dikenal sebagai 'Boxer's fracture'. Kepalan tangan yang menghantam benda keras biasanya mengakibatkan patah di bagian leher tulang ini."
+    },
+    {
+      "no": 68,
+      "objectBlender": "metatarsale_01.l",
+      "namaTampilanIndonesia": "Tulang telapak kaki 1 kiri",
+      "namaAnatomiLatin": "Os metatarsale I sinistrum",
+      "deskripsi": "Metatarsal pertama kiri adalah tulang telapak kaki yang paling pendek, paling tebal, dan paling kuat. Bersendi dengan cuneiforme mediale dan ibu jari kaki. Memiliki dua tulang sesamoid di bawah kepala metatarsal.",
+      "faktaAnatomiSederhana": "Metatarsal pertama menanggung sekitar sepertiga dari seluruh berat tubuh saat berdiri. Di bawah kepalanya terdapat dua tulang sesamoid kecil yang membantu mendistribusikan beban dan mengurangi gesekan tendon saat berjalan."
+    },
+    {
+      "no": 69,
+      "objectBlender": "metatarsale_01.r",
+      "namaTampilanIndonesia": "Tulang telapak kaki 1 kanan",
+      "namaAnatomiLatin": "Os metatarsale I dextrum",
+      "deskripsi": "Metatarsal pertama kanan identik dengan sisi kiri dan bersama dua tulang sesamoid di bawah kepalanya, berperan besar dalam tolakan saat berjalan dan berlari.",
+      "faktaAnatomiSederhana": "Fraktur stress metatarsal pertama adalah cedera umum pada pelari dan pejalan kaki jarak jauh. Metatarsal pertama kanan dan kiri menanggung tekanan terbesar di antara semua metatarsal saat tolakan."
+    },
+    {
+      "no": 70,
+      "objectBlender": "metatarsale_02.l",
+      "namaTampilanIndonesia": "Tulang telapak kaki 2 kiri",
+      "namaAnatomiLatin": "Os metatarsale II sinistrum",
+      "deskripsi": "Metatarsal kedua kiri adalah metatarsal terpanjang. Bersendi dengan cuneiforme mediale, intermedium, dan laterale, serta metatarsal pertama dan ketiga. Posisi terjepit di antara cuneiformia membuatnya kurang mobile tapi sangat stabil.",
+      "faktaAnatomiSederhana": "Metatarsal kedua adalah yang terpanjang dan paling rentan mengalami fraktur stress akibat lari jarak jauh atau berdiri terlalu lama. Nyeri di area ini disebut 'march fracture' karena sering terjadi pada tentara yang baru menjalani latihan jalan jauh."
+    },
+    {
+      "no": 71,
+      "objectBlender": "metatarsale_02.r",
+      "namaTampilanIndonesia": "Tulang telapak kaki 2 kanan",
+      "namaAnatomiLatin": "Os metatarsale II dextrum",
+      "deskripsi": "Metatarsal kedua kanan adalah metatarsal terpanjang di kaki kanan, dengan posisi yang terkunci di antara tulang-tulang cuneiforme.",
+      "faktaAnatomiSederhana": "Karena metatarsal kedua kanan adalah yang terpanjang, jari kaki kedua pada beberapa orang lebih panjang dari ibu jari kaki, kondisi yang disebut 'Morton's toe'. Kondisi ini memengaruhi distribusi berat badan dan biomekanik berjalan."
+    },
+    {
+      "no": 72,
+      "objectBlender": "metatarsale_03.l",
+      "namaTampilanIndonesia": "Tulang telapak kaki 3 kiri",
+      "namaAnatomiLatin": "Os metatarsale III sinistrum",
+      "deskripsi": "Metatarsal ketiga kiri bersendi dengan cuneiforme laterale dan metatarsal kedua dan keempat. Berada di posisi tengah kaki dan berkontribusi pada lengkungan transversal telapak kaki.",
+      "faktaAnatomiSederhana": "Metatarsal ketiga bersama keempat dan kelima membentuk lengkungan transversal kaki. 'Morton's neuroma', kondisi nyeri akibat penebalan jaringan saraf, paling sering terjadi di antara metatarsal ketiga dan keempat."
+    },
+    {
+      "no": 73,
+      "objectBlender": "metatarsale_03.r",
+      "namaTampilanIndonesia": "Tulang telapak kaki 3 kanan",
+      "namaAnatomiLatin": "Os metatarsale III dextrum",
+      "deskripsi": "Metatarsal ketiga kanan adalah metatarsal tengah di kaki kanan, bersendi dengan cuneiforme laterale.",
+      "faktaAnatomiSederhana": "Ruang antara metatarsal ketiga dan keempat adalah lokasi paling umum dari Morton's neuroma, kondisi yang menyebabkan rasa terbakar dan nyeri yang menyebar ke jari kaki. Sering dialami oleh wanita yang sering memakai sepatu hak tinggi sempit."
+    },
+    {
+      "no": 74,
+      "objectBlender": "metatarsale_04.l",
+      "namaTampilanIndonesia": "Tulang telapak kaki 4 kiri",
+      "namaAnatomiLatin": "Os metatarsale IV sinistrum",
+      "deskripsi": "Metatarsal keempat kiri bersendi dengan tulang cuboideum dan metatarsal ketiga dan kelima. Sedikit lebih mobile dibandingkan metatarsal kedua dan ketiga.",
+      "faktaAnatomiSederhana": "Metatarsal keempat dan kelima bersendi dengan tulang cuboideum, bukan cuneiforme. Perbedaan ini membuatnya sedikit lebih dapat bergerak, membantu kaki beradaptasi dengan permukaan yang tidak rata."
+    },
+    {
+      "no": 75,
+      "objectBlender": "metatarsale_04.r",
+      "namaTampilanIndonesia": "Tulang telapak kaki 4 kanan",
+      "namaAnatomiLatin": "Os metatarsale IV dextrum",
+      "deskripsi": "Metatarsal keempat kanan bersendi dengan cuboideum dan metatarsal di sekitarnya.",
+      "faktaAnatomiSederhana": "Fraktur avulsi di pangkal metatarsal kelima akibat tarikan otot peroneus brevis sering salah dikira sebagai fraktur metatarsal keempat. Inilah kenapa dokter selalu memeriksa seluruh sisi kaki setelah cedera pergelangan kaki."
+    },
+    {
+      "no": 76,
+      "objectBlender": "metatarsale_05.l",
+      "namaTampilanIndonesia": "Tulang telapak kaki 5 kiri",
+      "namaAnatomiLatin": "Os metatarsale V sinistrum",
+      "deskripsi": "Metatarsal kelima kiri memiliki tonjolan tulang (tuberositas) yang menonjol di sisi lateral pangkalnya sebagai tempat perlekatan otot peroneus brevis. Bersendi dengan cuboideum dan metatarsal keempat.",
+      "faktaAnatomiSederhana": "Tonjolan di pangkal metatarsal kelima (tuberositas) adalah tempat perlekatan tendon peroneus brevis. Cedera inversi pergelangan kaki sering menarik tendon ini dan mematahkan tuberositas tersebut, yang dikenal sebagai fraktur avulsi metatarsal kelima."
+    },
+    {
+      "no": 77,
+      "objectBlender": "metatarsale_05.r",
+      "namaTampilanIndonesia": "Tulang telapak kaki 5 kanan",
+      "namaAnatomiLatin": "Os metatarsale V dextrum",
+      "deskripsi": "Metatarsal kelima kanan identik dengan sisi kiri dan merupakan metatarsal paling lateral di kaki kanan dengan tuberositas yang mudah diraba.",
+      "faktaAnatomiSederhana": "Fraktur 'Jones fracture' terjadi di pangkal metatarsal kelima, sedikit lebih ke arah diafisis dari tuberositas. Berbeda dengan fraktur avulsi, Jones fracture lebih sulit sembuh karena suplai darahnya yang kurang baik di area tersebut."
+    },
+    {
+      "no": 78,
+      "objectBlender": "patella.l",
+      "namaTampilanIndonesia": "Tempurung lutut kiri",
+      "namaAnatomiLatin": "Patella sinistra",
+      "deskripsi": "Patella kiri adalah tulang sesamoid terbesar dalam tubuh manusia, tertanam di dalam tendon quadriceps femoris. Berbentuk segitiga dengan permukaan posterior yang bersentuhan dengan tulang rawan femur. Berfungsi meningkatkan kekuatan mekanik otot quadriceps.",
+      "faktaAnatomiSederhana": "Patella meningkatkan efisiensi otot quadriceps hingga 50% dengan bertindak sebagai pengungkit. Ketika berlutut langsung di lantai, tekanan pada patella bisa mencapai tiga kali berat badan, dan saat jongkok bisa mencapai delapan kali berat badan."
+    },
+    {
+      "no": 79,
+      "objectBlender": "patella.r",
+      "namaTampilanIndonesia": "Tempurung lutut kanan",
+      "namaAnatomiLatin": "Patella dextra",
+      "deskripsi": "Patella kanan identik dengan sisi kiri, tertanam dalam tendon quadriceps dan bersendi dengan femur membentuk sendi patelofemoral.",
+      "faktaAnatomiSederhana": "Dislokasi patella adalah cedera lutut yang umum terutama pada remaja perempuan, di mana tempurung lutut tergeser keluar dari alurnya. Patella paling sering bergeser ke arah lateral (luar) karena struktur anatomi sendi lutut."
+    },
+    {
+      "no": 80,
+      "objectBlender": "phalanx_02.l",
+      "namaTampilanIndonesia": "Ruas jari tangan 2 kiri",
+      "namaAnatomiLatin": "Phalanx manus digiti II sinistra",
+      "deskripsi": "Ruas jari telunjuk kiri terdiri dari tiga ruas: phalanx proximalis (pangkal), phalanx media (tengah), dan phalanx distalis (ujung). Masing-masing ruas berartikulasi membentuk sendi interphalangeal proksimal (PIP) dan distal (DIP).",
+      "faktaAnatomiSederhana": "Jari telunjuk memiliki tiga ruas phalanx yang memungkinkan tiga sendi lentur (MCP, PIP, DIP). Jari telunjuk memiliki kemampuan gerak individual paling baik karena memiliki tendon ekstensor terpisah (extensor indicis proprius)."
+    },
+    {
+      "no": 81,
+      "objectBlender": "phalanx_02.r",
+      "namaTampilanIndonesia": "Ruas jari tangan 2 kanan",
+      "namaAnatomiLatin": "Phalanx manus digiti II dextra",
+      "deskripsi": "Ruas jari telunjuk kanan memiliki tiga ruas phalanx yang berartikulasi satu sama lain melalui sendi interphalangeal.",
+      "faktaAnatomiSederhana": "Jari telunjuk kanan adalah jari yang paling sering digunakan untuk menunjuk karena dapat bergerak lebih independen dari jari lain. Penyebabnya adalah adanya tendon extensor indicis proprius yang hanya menggerakkan jari telunjuk saja."
+    },
+    {
+      "no": 82,
+      "objectBlender": "phalanx_03.l",
+      "namaTampilanIndonesia": "Ruas jari tangan 3 kiri",
+      "namaAnatomiLatin": "Phalanx manus digiti III sinistra",
+      "deskripsi": "Ruas jari tengah kiri terdiri dari tiga ruas phalanx. Jari tengah umumnya adalah jari terpanjang dan berserta metacarpal ketiganya merupakan jari dengan ruas paling panjang di tangan.",
+      "faktaAnatomiSederhana": "Jari tengah adalah jari terpanjang di tangan. Kondisi 'trigger finger' (jari pelatuk) bisa terjadi di jari mana saja termasuk jari tengah, di mana fleksor tendon macet sehingga jari terasa 'mengunci' dan meloncat saat diluruskan."
+    },
+    {
+      "no": 83,
+      "objectBlender": "phalanx_03.r",
+      "namaTampilanIndonesia": "Ruas jari tangan 3 kanan",
+      "namaAnatomiLatin": "Phalanx manus digiti III dextra",
+      "deskripsi": "Ruas jari tengah kanan terdiri dari tiga ruas phalanx yang bersendi melalui sendi MCP, PIP, dan DIP.",
+      "faktaAnatomiSederhana": "Jari tengah kanan sangat penting dalam aktivitas menulis dan mengetik. Tendon fleksor jari tengah berbagi satu selubung tendon dengan jari lainnya, sehingga infeksi selubung tendon bisa menyebar ke seluruh tangan."
+    },
+    {
+      "no": 84,
+      "objectBlender": "phalanx_04.l",
+      "namaTampilanIndonesia": "Ruas jari tangan 4 kiri",
+      "namaAnatomiLatin": "Phalanx manus digiti IV sinistra",
+      "deskripsi": "Ruas jari manis kiri memiliki tiga ruas phalanx. Jari manis memiliki keterbatasan gerak individual paling besar dibanding jari lain karena berbagi tendon ekstensor dengan jari tengah dan kelingking.",
+      "faktaAnatomiSederhana": "Jari manis adalah jari yang paling sulit digerakkan secara independen dari jari-jari lain. Ini karena tendon ekstensor jari manis tidak memiliki otot penggerak sendiri seperti telunjuk dan kelingking, sehingga bergantung pada tendon bersama."
+    },
+    {
+      "no": 85,
+      "objectBlender": "phalanx_04.r",
+      "namaTampilanIndonesia": "Ruas jari tangan 4 kanan",
+      "namaAnatomiLatin": "Phalanx manus digiti IV dextra",
+      "deskripsi": "Ruas jari manis kanan memiliki tiga ruas phalanx dan gerakan independen yang terbatas karena berbagi tendon dengan jari tengah dan kelingking.",
+      "faktaAnatomiSederhana": "Kontraktur Dupuytren adalah kondisi di mana fascia palmar menebal dan menarik jari manis (dan kelingking) ke arah telapak tangan sehingga tidak bisa diluruskan. Ini lebih umum pada pria keturunan Eropa Utara."
+    },
+    {
+      "no": 86,
+      "objectBlender": "phalanx_05.l",
+      "namaTampilanIndonesia": "Ruas jari tangan 5 kiri",
+      "namaAnatomiLatin": "Phalanx manus digiti V sinistra",
+      "deskripsi": "Ruas jari kelingking kiri memiliki tiga ruas phalanx dan merupakan jari terkecil. Namun memiliki tendon abduktor kelingking (abductor digiti minimi) yang khusus sehingga bisa digerakkan menjauhi jari manis.",
+      "faktaAnatomiSederhana": "Meskipun jari kelingking paling kecil, ia penting untuk kekuatan menggenggam. Memotong 20% lingkar pegangan benda dianggap mengurangi kekuatan genggam secara signifikan jika jari kelingking tidak ikut menggenggam."
+    },
+    {
+      "no": 87,
+      "objectBlender": "phalanx_05.r",
+      "namaTampilanIndonesia": "Ruas jari tangan 5 kanan",
+      "namaAnatomiLatin": "Phalanx manus digiti V dextra",
+      "deskripsi": "Ruas jari kelingking kanan memiliki tiga ruas phalanx. Di sepanjang sisi ulnar kelingking terdapat berkas neurovaskuler yang dilindungi oleh abduktor kelingking.",
+      "faktaAnatomiSederhana": "Jari kelingking sering mengalami fraktur karena posisinya paling tepi. Fraktur phalanx kelingking yang salah posisi bisa mengganggu keserasian gerak jari saat mengepal, sehingga perlu diluruskan dengan benar."
+    },
+    {
+      "no": 88,
+      "objectBlender": "phalanx_pedis_02.l",
+      "namaTampilanIndonesia": "Ruas jari kaki 2 kiri",
+      "namaAnatomiLatin": "Phalanx pedis digiti II sinistra",
+      "deskripsi": "Ruas jari kaki kedua kiri memiliki tiga ruas phalanx (proximalis, media, distalis), seperti halnya jari kaki 3, 4, dan 5. Sering lebih panjang dari ibu jari kaki pada sebagian orang.",
+      "faktaAnatomiSederhana": "Jari kaki kedua adalah jari yang paling sering mengalami 'hammer toe', yaitu deformasi di mana jari melengkung ke bawah akibat ketidakseimbangan otot, sering dipicu oleh pemakaian sepatu sempit atau hak tinggi."
+    },
+    {
+      "no": 89,
+      "objectBlender": "phalanx_pedis_02.r",
+      "namaTampilanIndonesia": "Ruas jari kaki 2 kanan",
+      "namaAnatomiLatin": "Phalanx pedis digiti II dextra",
+      "deskripsi": "Ruas jari kaki kedua kanan memiliki tiga ruas phalanx dan sering lebih panjang dari hallux pada kondisi yang disebut 'Morton's toe'.",
+      "faktaAnatomiSederhana": "Jari kaki kedua kanan yang lebih panjang dari ibu jari (Morton's toe) ditemukan pada sekitar 20% populasi. Kondisi ini dapat memengaruhi distribusi berat badan dan meningkatkan risiko kalus dan nyeri di bawah kepala metatarsal kedua."
+    },
+    {
+      "no": 90,
+      "objectBlender": "phalanx_pedis_03.l",
+      "namaTampilanIndonesia": "Ruas jari kaki 3 kiri",
+      "namaAnatomiLatin": "Phalanx pedis digiti III sinistra",
+      "deskripsi": "Ruas jari kaki ketiga kiri memiliki tiga ruas phalanx yang lebih kecil dan pendek dibandingkan jari kedua. Berartikulasi dengan metatarsal ketiga di sendi metatarsofalangeal.",
+      "faktaAnatomiSederhana": "Jari kaki ketiga jarang mengalami kelainan tersendiri, namun turut terdampak dalam deformitas jari kaki seperti hammer toe atau claw toe yang sering terjadi bersamaan dengan jari kedua dan keempat."
+    },
+    {
+      "no": 91,
+      "objectBlender": "phalanx_pedis_03.r",
+      "namaTampilanIndonesia": "Ruas jari kaki 3 kanan",
+      "namaAnatomiLatin": "Phalanx pedis digiti III dextra",
+      "deskripsi": "Ruas jari kaki ketiga kanan identik dengan sisi kiri dan memiliki tiga ruas phalanx.",
+      "faktaAnatomiSederhana": "Bersama jari kaki keempat, jari ketiga berperan dalam menjaga keseimbangan lateral kaki. Kuku jari ketiga relatif jarang mengalami masalah dibanding ibu jari dan jari pertama yang lebih dominan menanggung berat."
+    },
+    {
+      "no": 92,
+      "objectBlender": "phalanx_pedis_04.l",
+      "namaTampilanIndonesia": "Ruas jari kaki 4 kiri",
+      "namaAnatomiLatin": "Phalanx pedis digiti IV sinistra",
+      "deskripsi": "Ruas jari kaki keempat kiri memiliki tiga ruas phalanx dan berartikulasi dengan metatarsal keempat. Berada di sisi lateral kaki.",
+      "faktaAnatomiSederhana": "Jari kaki keempat sering mengembangkan 'claw toe' bersamaan dengan jari ketiga dan kelima, terutama akibat neuropati diabetik yang melemahkan otot-otot intrinsik kaki dan menyebabkan ketidakseimbangan tendon."
+    },
+    {
+      "no": 93,
+      "objectBlender": "phalanx_pedis_04.r",
+      "namaTampilanIndonesia": "Ruas jari kaki 4 kanan",
+      "namaAnatomiLatin": "Phalanx pedis digiti IV dextra",
+      "deskripsi": "Ruas jari kaki keempat kanan identik dengan sisi kiri dan berartikulasi dengan metatarsal keempat.",
+      "faktaAnatomiSederhana": "Jari kaki keempat kanan adalah salah satu lokasi umum interdigital corn (kapalan di antara jari kaki), yang muncul akibat gesekan berulang antara jari keempat dan kelima, sering disebabkan sepatu yang terlalu sempit."
+    },
+    {
+      "no": 94,
+      "objectBlender": "phalanx_pedis_05.l",
+      "namaTampilanIndonesia": "Ruas jari kaki 5 kiri",
+      "namaAnatomiLatin": "Phalanx pedis digiti V sinistra",
+      "deskripsi": "Ruas jari kaki kelima (kelingking kaki) kiri memiliki tiga ruas phalanx namun phalanx media dan distalisnya sering menyatu menjadi satu tulang pada orang dewasa. Ini adalah jari kaki terkecil.",
+      "faktaAnatomiSederhana": "Pada banyak orang dewasa, ruas tengah dan ujung jari kelingking kaki menyatu menjadi satu tulang. Jari kelingking kaki adalah yang paling sering terbentur ('terkilir') di malam hari karena posisinya paling menonjol ke samping."
+    },
+    {
+      "no": 95,
+      "objectBlender": "phalanx_pedis_05.r",
+      "namaTampilanIndonesia": "Ruas jari kaki 5 kanan",
+      "namaAnatomiLatin": "Phalanx pedis digiti V dextra",
+      "deskripsi": "Ruas jari kelingking kaki kanan memiliki tiga ruas phalanx yang sering mengalami fusi. Berartikulasi dengan metatarsal kelima.",
+      "faktaAnatomiSederhana": "Fraktur jari kelingking kaki sangat umum terjadi akibat terbentur. Pengobatannya biasanya cukup dengan buddy taping (mengikat jari yang patah ke jari di sebelahnya) karena sendi kelingking kaki tidak menanggung berat badan yang signifikan."
+    },
+    {
+      "no": 96,
+      "objectBlender": "pisiform.l",
+      "namaTampilanIndonesia": "Tulang pisiform kiri",
+      "namaAnatomiLatin": "Os pisiforme sinistrum",
+      "deskripsi": "Pisiform kiri adalah tulang karpal terkecil berbentuk bulat seperti kacang polong. Secara teknis merupakan tulang sesamoid yang tertanam dalam tendon otot fleksor karpi ulnaris. Terletak di baris proksimal karpal, di sisi ulnar.",
+      "faktaAnatomiSederhana": "Pisiform adalah satu-satunya tulang karpal yang bisa diraba dengan mudah dari luar, teraba sebagai tonjolan kecil di sisi kelingking pergelangan tangan. Ia juga satu-satunya tulang karpal yang dianggap sebagai tulang sesamoid."
+    },
+    {
+      "no": 97,
+      "objectBlender": "pisiform.r",
+      "namaTampilanIndonesia": "Tulang pisiform kanan",
+      "namaAnatomiLatin": "Os pisiforme dextrum",
+      "deskripsi": "Pisiform kanan identik dengan sisi kiri, berfungsi sebagai tulang sesamoid dalam tendon fleksor karpi ulnaris dan sebagai tempat perlekatan beberapa ligamen dan otot hipotenar.",
+      "faktaAnatomiSederhana": "Di samping pisiform terdapat saluran Guyon, yaitu terowongan sempit yang dilalui saraf ulnar dan arteri ulnar. Kompresi di saluran ini dapat menyebabkan mati rasa dan kelemahan di jari manis dan kelingking."
+    },
+    {
+      "no": 98,
+      "objectBlender": "pollex.l",
+      "namaTampilanIndonesia": "Ibu jari tangan kiri",
+      "namaAnatomiLatin": "Pollex sinister",
+      "deskripsi": "Ibu jari tangan kiri (pollex) hanya memiliki dua ruas phalanx (proximalis dan distalis), berbeda dengan jari lainnya yang memiliki tiga ruas. Bersama metacarpal pertama yang sangat mobile, pollex mampu melakukan gerakan oposisi yang esensial untuk menggenggam.",
+      "faktaAnatomiSederhana": "Ibu jari adalah jari paling penting di tangan manusia. Kemampuannya untuk berhadapan dengan jari-jari lain (oposisi) memungkinkan manusia menggenggam alat dengan presisi, kemampuan yang sangat terbatas pada primata lain."
+    },
+    {
+      "no": 99,
+      "objectBlender": "pollex.r",
+      "namaTampilanIndonesia": "Ibu jari tangan kanan",
+      "namaAnatomiLatin": "Pollex dexter",
+      "deskripsi": "Ibu jari tangan kanan memiliki dua ruas phalanx dan berartikulasi dengan metacarpal pertama di sendi interphalangeal yang hanya ada satu (berbeda jari lain yang punya dua sendi interphalangeal).",
+      "faktaAnatomiSederhana": "Ibu jari kanan menyumbang sekitar 40-50% dari keseluruhan fungsi tangan. Cedera atau kehilangan ibu jari dianggap kehilangan fungsi tangan yang sangat signifikan, bahkan dalam kasus hukum sering dicompensasi lebih tinggi dari kehilangan jari lainnya."
+    },
+    {
+      "no": 100,
+      "objectBlender": "processus_xiphoideus",
+      "namaTampilanIndonesia": "Taju pedang tulang dada",
+      "namaAnatomiLatin": "Processus xiphoideus",
+      "deskripsi": "Processus xiphoideus adalah ujung bawah sternum yang paling kecil, awalnya terbuat dari tulang rawan dan baru mengalami osifikasi setelah usia 40 tahun. Menjadi tempat perlekatan diafragma, beberapa otot abdomen, dan ligamen.",
+      "faktaAnatomiSederhana": "Processus xiphoideus adalah patokan anatomi untuk menentukan batas bawah sternum. Saat melakukan kompresi dada (CPR), tangan tidak boleh menekan processus xiphoideus karena dapat mematahkannya dan melukai hati di bawahnya."
+    },
+    {
+      "no": 101,
+      "objectBlender": "radius.l",
+      "namaTampilanIndonesia": "Tulang pengumpil kiri",
+      "namaAnatomiLatin": "Radius sinister",
+      "deskripsi": "Radius kiri adalah tulang lateral (sisi ibu jari) lengan bawah. Bersendi dengan humerus di siku (sendi radiocapitellar), ulna di proksimal dan distal (sendi radioulnar), serta tulang-tulang karpal di pergelangan tangan. Radius memutar mengelilingi ulna dalam gerakan pronasi dan supinasi.",
+      "faktaAnatomiSederhana": "Radius adalah tulang yang memungkinkan tangan berputar. Saat lengan bawah berpronasi (telapak ke bawah), radius bersilang di atas ulna. Saat supinasi (telapak ke atas), radius dan ulna sejajar. Fraktur Colles adalah fraktur radius bawah yang paling umum, terjadi akibat jatuh dengan tangan menumpu."
+    },
+    {
+      "no": 102,
+      "objectBlender": "radius.r",
+      "namaTampilanIndonesia": "Tulang pengumpil kanan",
+      "namaAnatomiLatin": "Radius dexter",
+      "deskripsi": "Radius kanan identik strukturnya dengan sisi kiri dan berperan penting dalam gerakan pronasi-supinasi lengan bawah serta membentuk sendi pergelangan tangan dengan tulang-tulang karpal.",
+      "faktaAnatomiSederhana": "Fraktur Colles (ujung bawah radius kanan yang bergeser ke belakang) adalah salah satu fraktur paling umum, terutama pada wanita pascamenopause. Mekanismenya adalah jatuh dengan tangan menumpu saat siku lurus dan pergelangan tangan ekstensi."
+    },
+    {
+      "no": 103,
+      "objectBlender": "sacrum",
+      "namaTampilanIndonesia": "Tulang kelangkang",
+      "namaAnatomiLatin": "Os sacrum / Sacrum",
+      "deskripsi": "Sacrum adalah tulang berbentuk segitiga yang terbentuk dari fusi lima vertebra sakralis. Terletak di antara dua os coxae membentuk dinding posterior gelang panggul. Bersendi dengan os coxae kiri-kanan melalui sendi sakroiliaka yang sangat kuat.",
+      "faktaAnatomiSederhana": "Sacrum adalah 'batu kunci' gelang panggul yang menahan berat seluruh tubuh bagian atas dan meneruskannya ke dua tungkai. Sendi sakroiliaka yang menghubungkan sacrum dengan os coxae adalah salah satu sendi yang paling sering menjadi sumber nyeri punggung bawah."
+    },
+    {
+      "no": 104,
+      "objectBlender": "scapula.l",
+      "namaTampilanIndonesia": "Tulang belikat kiri",
+      "namaAnatomiLatin": "Scapula sinistra",
+      "deskripsi": "Scapula kiri adalah tulang pipih segitiga yang terletak di bagian posterior bahu kiri, di atas iga 2 hingga 7. Memiliki glenoid (cekungan sendi untuk caput humeri), akromion (tempat bertemu clavicula), dan coracoid (tempat perlekatan beberapa otot dan ligamen).",
+      "faktaAnatomiSederhana": "Scapula adalah tulang yang paling mobile di tubuh manusia karena tidak bersendi langsung dengan rangka aksial (hanya dihubungkan clavicula). Kemampuan scapula berputar, terangkat, dan bergeser memungkinkan lengan diangkat di atas kepala dengan rentang gerak penuh."
+    },
+    {
+      "no": 105,
+      "objectBlender": "scapula.r",
+      "namaTampilanIndonesia": "Tulang belikat kanan",
+      "namaAnatomiLatin": "Scapula dextra",
+      "deskripsi": "Scapula kanan identik dengan sisi kiri. Di bagian posteriornya terdapat spina scapulae yang membagi permukaan belakang menjadi fossa supraspinata (untuk rotator cuff atas) dan fossa infraspinata.",
+      "faktaAnatomiSederhana": "Di bagian belakang scapula kanan terdapat alur tempat lewat saraf suprascapular. Cedera saraf ini menyebabkan kelemahan dan atrofi otot supraspinatus dan infraspinatus, yang sering tidak terdiagnosis karena gejalanya mirip cedera rotator cuff biasa."
+    },
+    {
+      "no": 106,
+      "objectBlender": "symphysis_pubica",
+      "namaTampilanIndonesia": "Simfisis pubis",
+      "namaAnatomiLatin": "Symphysis pubica",
+      "deskripsi": "Simfisis pubis adalah sendi kartilaginosa (jenis amfiarthrosis) yang menghubungkan badan pubis kiri dan kanan di garis tengah tubuh. Dipererat oleh beberapa ligamen kuat dan cakram fibrokartilago di tengahnya.",
+      "faktaAnatomiSederhana": "Simfisis pubis biasanya hampir tidak bisa bergerak pada pria, namun pada wanita hamil, hormon relaksin melembutkan ligamennya sehingga sendi ini bisa sedikit melebar untuk membantu proses persalinan. Nyeri simfisis pubis adalah keluhan umum selama kehamilan."
+    },
+    {
+      "no": 107,
+      "objectBlender": "tarsus_01.l",
+      "namaTampilanIndonesia": "Tulang pergelangan kaki 1 kiri",
+      "namaAnatomiLatin": "Os tarsi I sinistrum",
+      "deskripsi": "Tulang tarsal pertama kiri kemungkinan merujuk pada os cuneiforme mediale, yaitu tulang tarsal terbesar dari tiga cuneiforme yang bersendi dengan metatarsal pertama (ibu jari kaki). Validasi terhadap model Blender diperlukan untuk konfirmasi.",
+      "faktaAnatomiSederhana": "Os cuneiforme mediale adalah tulang kunci di lengkungan medial kaki. Bersama navikular dan metatarsal pertama, tulang ini membentuk landasan lengkungan longitudinal medial kaki yang menyerap beban tubuh saat berjalan."
+    },
+    {
+      "no": 108,
+      "objectBlender": "tarsus_01.r",
+      "namaTampilanIndonesia": "Tulang pergelangan kaki 1 kanan",
+      "namaAnatomiLatin": "Os tarsi I dextrum",
+      "deskripsi": "Tulang tarsal pertama kanan kemungkinan merujuk pada os cuneiforme mediale kanan. Validasi nama spesifik terhadap model Blender sangat disarankan.",
+      "faktaAnatomiSederhana": "Cuneiforme mediale adalah komponen utama sendi Lisfranc (sendi tarsometatarsal). Cedera sendi Lisfranc sering melibatkan dislokasi atau fraktur di area cuneiforme mediale dan metatarsal pertama, dan sering tidak terdeteksi pada foto Rontgen standar."
+    },
+    {
+      "no": 109,
+      "objectBlender": "tarsus_02.l",
+      "namaTampilanIndonesia": "Tulang pergelangan kaki 2 kiri",
+      "namaAnatomiLatin": "Os tarsi II sinistrum",
+      "deskripsi": "Tulang tarsal kedua kiri kemungkinan merujuk pada os cuneiforme intermedium, yaitu cuneiforme terkecil yang terletak di antara cuneiforme mediale dan laterale, bersendi dengan metatarsal kedua.",
+      "faktaAnatomiSederhana": "Os cuneiforme intermedium adalah yang terkecil di antara tiga cuneiforme dan terjepit rapat di antara dua cuneiforme lainnya. Posisinya yang terjepit ini berkontribusi pada stabilitas lengkung transversal kaki."
+    },
+    {
+      "no": 110,
+      "objectBlender": "tarsus_02.r",
+      "namaTampilanIndonesia": "Tulang pergelangan kaki 2 kanan",
+      "namaAnatomiLatin": "Os tarsi II dextrum",
+      "deskripsi": "Tulang tarsal kedua kanan kemungkinan merujuk pada os cuneiforme intermedium kanan. Validasi nama terhadap model Blender diperlukan.",
+      "faktaAnatomiSederhana": "Cuneiforme intermedium sangat stabil dan jarang mengalami cedera tersendiri. Karena posisinya yang terjepit, fraktur di area ini biasanya terjadi bersamaan dengan cedera sendi Lisfranc yang lebih serius."
+    },
+    {
+      "no": 111,
+      "objectBlender": "tarsus_03.l",
+      "namaTampilanIndonesia": "Tulang pergelangan kaki 3 kiri",
+      "namaAnatomiLatin": "Os tarsi III sinistrum",
+      "deskripsi": "Tulang tarsal ketiga kiri kemungkinan merujuk pada os cuneiforme laterale, yang bersendi dengan metatarsal ketiga dan cuboideum. Validasi nama terhadap model Blender diperlukan.",
+      "faktaAnatomiSederhana": "Os cuneiforme laterale membentuk persimpangan antara baris medial dan lateral tulang tarsal. Di sisi lateralnya berbatasan dengan cuboideum, dan bersama-sama mereka membentuk 'baris tengah' kelompok tarsal."
+    },
+    {
+      "no": 112,
+      "objectBlender": "tarsus_03.r",
+      "namaTampilanIndonesia": "Tulang pergelangan kaki 3 kanan",
+      "namaAnatomiLatin": "Os tarsi III dextrum",
+      "deskripsi": "Tulang tarsal ketiga kanan kemungkinan merujuk pada os cuneiforme laterale kanan. Validasi nama terhadap model Blender diperlukan.",
+      "faktaAnatomiSederhana": "Cuneiforme laterale kanan berbatasan langsung dengan cuboideum di sisi luar dan navikular di belakangnya. Area pertemuan tulang-tulang ini sering menjadi lokasi artritis tarsal yang menyebabkan nyeri kaki bagian tengah."
+    },
+    {
+      "no": 113,
+      "objectBlender": "tarsus_04.l",
+      "namaTampilanIndonesia": "Tulang pergelangan kaki 4 kiri",
+      "namaAnatomiLatin": "Os tarsi IV sinistrum",
+      "deskripsi": "Tulang tarsal keempat kiri kemungkinan merujuk pada os cuboideum, yaitu tulang tarsal di sisi lateral kaki yang bersendi dengan metatarsal keempat dan kelima, calcaneus, dan cuneiforme laterale. Validasi diperlukan.",
+      "faktaAnatomiSederhana": "Os cuboideum mendukung beban sisi luar kaki dan bersendi langsung dengan metatarsal keempat dan kelima. Di bawah cuboideum terdapat alur (sulcus cuboidei) yang dilalui tendon peroneus longus menuju telapak kaki."
+    },
+    {
+      "no": 114,
+      "objectBlender": "tarsus_04.r",
+      "namaTampilanIndonesia": "Tulang pergelangan kaki 4 kanan",
+      "namaAnatomiLatin": "Os tarsi IV dextrum",
+      "deskripsi": "Tulang tarsal keempat kanan kemungkinan merujuk pada os cuboideum kanan. Validasi terhadap model Blender sangat disarankan.",
+      "faktaAnatomiSederhana": "Cuboideum kanan penting sebagai jalur tendon peroneus longus. Fraktur cuboideum yang terisolasi jarang terjadi namun bisa sangat menyakitkan karena tulang ini menanggung berat badan sisi lateral kaki."
+    },
+    {
+      "no": 115,
+      "objectBlender": "tarsus_05.l",
+      "namaTampilanIndonesia": "Tulang pergelangan kaki 5 kiri",
+      "namaAnatomiLatin": "Os tarsi V sinistrum",
+      "deskripsi": "Tulang tarsal kelima kiri kemungkinan merujuk pada os naviculare (navikular), yaitu tulang tarsal di sisi medial kaki yang bersendi dengan talus dan tiga cuneiforme. Namun validasi terhadap model Blender sangat diperlukan karena penomoran mungkin tidak mengikuti urutan standar anatomi.",
+      "faktaAnatomiSederhana": "Os naviculare adalah tulang berbentuk seperti kapal yang menjadi kunci lengkungan medial kaki. Tonjolan navikular di sisi dalam kaki teraba sebagai benjolan dan kadang memiliki tulang aksesori (os naviculare accessorium) yang dapat menyebabkan nyeri pada sebagian orang."
+    },
+    {
+      "no": 116,
+      "objectBlender": "tarsus_05.r",
+      "namaTampilanIndonesia": "Tulang pergelangan kaki 5 kanan",
+      "namaAnatomiLatin": "Os tarsi V dextrum",
+      "deskripsi": "Tulang tarsal kelima kanan kemungkinan merujuk pada os naviculare kanan atau os talus, namun validasi terhadap model Blender sangat diperlukan untuk konfirmasi yang tepat.",
+      "faktaAnatomiSederhana": "Os naviculare kanan membentuk bagian penting lengkungan medial kaki. Fraktur stress navikular adalah salah satu cedera yang paling sering tidak terdiagnosis pada atlet, karena sering tidak terlihat pada foto Rontgen biasa dan memerlukan MRI atau CT scan."
+    },
+    {
+      "no": 117,
+      "objectBlender": "tibia.l",
+      "namaTampilanIndonesia": "Tulang kering kiri",
+      "namaAnatomiLatin": "Tibia sinistra",
+      "deskripsi": "Tibia kiri adalah tulang panjang terbesar dan terkuat di tungkai bawah. Menanggung sekitar 80-90% berat tubuh. Bersendi dengan femur di sendi lutut, fibula di kedua ujungnya, dan talus di pergelangan kaki membentuk malleolus medialis.",
+      "faktaAnatomiSederhana": "Tibia menanggung sekitar 90% berat badan saat berdiri. Permukaan anterior tibia (tulang kering) tidak memiliki lapisan otot sehingga bisa langsung teraba di bawah kulit dan sangat rentan terhadap benturan langsung, yang menyebabkan nyeri yang intens."
+    },
+    {
+      "no": 118,
+      "objectBlender": "tibia.r",
+      "namaTampilanIndonesia": "Tulang kering kanan",
+      "namaAnatomiLatin": "Tibia dextra",
+      "deskripsi": "Tibia kanan identik dengan sisi kiri dan merupakan tulang menanggung berat utama di tungkai bawah. Di bagian atas terdapat plateu tibial yang menjadi permukaan sendi dengan kondilus femur.",
+      "faktaAnatomiSederhana": "Fraktur plateu tibia (bagian atas tibia) serius karena melibatkan permukaan sendi lutut. Tibia kanan (dan kiri) juga lokasi umum fraktur stress pada pelari, terutama di sepertiga atas diafisis, karena tekanan berulang saat berlari jarak jauh."
+    },
+    {
+      "no": 119,
+      "objectBlender": "ulna.l",
+      "namaTampilanIndonesia": "Tulang hasta kiri",
+      "namaAnatomiLatin": "Ulna sinistra",
+      "deskripsi": "Ulna kiri adalah tulang medial (sisi kelingking) lengan bawah. Bagian proksimalnya membentuk olekranon (tonjolan siku) dan prosesus koronoideus yang membentuk takik ulnar untuk bersendi dengan humerus. Ulna adalah tulang yang lebih stabil dari dua tulang lengan bawah.",
+      "faktaAnatomiSederhana": "Olekranon ulna adalah tulang yang teraba sebagai tonjolan siku. Posisinya yang menonjol membuatnya rentan terhadap bursitis olekranon (pembengkakan cairan pada siku) akibat tekanan berulang, sering disebut 'siku pelajar' karena umum pada orang yang sering bersandar."
+    },
+    {
+      "no": 120,
+      "objectBlender": "ulna.r",
+      "namaTampilanIndonesia": "Tulang hasta kanan",
+      "namaAnatomiLatin": "Ulna dextra",
+      "deskripsi": "Ulna kanan identik dengan sisi kiri. Di bagian distalnya terdapat kaput ulna dan processus styloideus ulnae yang berperan dalam stabilitas pergelangan tangan.",
+      "faktaAnatomiSederhana": "Processus styloideus ulna kanan adalah tonjolan kecil yang teraba di sisi kelingking pergelangan tangan. Fraktur styloid ulna sering menyertai fraktur radius bawah dan dapat menyebabkan nyeri dan instabilitas sendi pergelangan tangan jika tidak ditangani."
+    },
+    {
+      "no": 121,
+      "objectBlender": "vertebra_cervicalis_3",
+      "namaTampilanIndonesia": "Vertebra servikal 3",
+      "namaAnatomiLatin": "Vertebra cervicalis III",
+      "deskripsi": "Vertebra cervicalis III (C3) adalah tulang leher ketiga yang memiliki ciri khas vertebra serviks yaitu foramen transversarium (lubang di prosesus transversus) untuk jalur arteri vertebralis, serta badan vertebra yang kecil.",
+      "faktaAnatomiSederhana": "C3 terletak setinggi bagian bawah tulang hyoid (tulang lidah). Cedera pada C3 dapat memengaruhi saraf frenikus yang mengontrol diafragma, sehingga kerusakan berat di level ini dapat menyebabkan gangguan pernapasan yang serius."
+    },
+    {
+      "no": 122,
+      "objectBlender": "vertebra_cervicalis_4",
+      "namaTampilanIndonesia": "Vertebra servikal 4",
+      "namaAnatomiLatin": "Vertebra cervicalis IV",
+      "deskripsi": "Vertebra cervicalis IV (C4) adalah tulang leher keempat dengan karakteristik umum vertebra serviks termasuk foramen transversarium dan prosesus spinosus yang bercabang dua (bifida).",
+      "faktaAnatomiSederhana": "C4 berada di tingkat yang sama dengan laring bagian bawah. Cedera sumsum tulang belakang di level C4 menyebabkan hilangnya fungsi lengan dan sebagian fungsi pernapasan, sering membutuhkan alat bantu napas jangka panjang."
+    },
+    {
+      "no": 123,
+      "objectBlender": "vertebra_cervicalis_5",
+      "namaTampilanIndonesia": "Vertebra servikal 5",
+      "namaAnatomiLatin": "Vertebra cervicalis V",
+      "deskripsi": "Vertebra cervicalis V (C5) adalah salah satu vertebra serviks yang paling sering mengalami herniasi diskus. Berada di tingkat setara dengan kartilago tiroid laring.",
+      "faktaAnatomiSederhana": "Akar saraf C5 yang keluar dari level ini menginervasi otot deltoid dan bisep. Kompresi saraf C5 akibat hernia diskus atau osteoartritis menyebabkan nyeri bahu, kelemahan mengangkat lengan, dan gangguan refleks bisep."
+    },
+    {
+      "no": 124,
+      "objectBlender": "vertebra_cervicalis_6",
+      "namaTampilanIndonesia": "Vertebra servikal 6",
+      "namaAnatomiLatin": "Vertebra cervicalis VI",
+      "deskripsi": "Vertebra cervicalis VI (C6) memiliki prosesus transversus yang lebih besar dibandingkan vertebra serviks lainnya, dengan tuberkel anterior (tuberkel karotis) yang dapat meraba arteri karotis komunis.",
+      "faktaAnatomiSederhana": "Tuberkel anterior C6 (tuberkel Chassaignac) dapat digunakan untuk menekan arteri karotis komunis dalam kedaruratan untuk mengontrol perdarahan. Akar saraf C6 menginervasi lengan bawah dan ibu jari, sehingga hernia diskus C5-C6 menyebabkan kesemutan di ibu jari."
+    },
+    {
+      "no": 125,
+      "objectBlender": "vertebra_cervicalis_7",
+      "namaTampilanIndonesia": "Vertebra servikal 7",
+      "namaAnatomiLatin": "Vertebra cervicalis VII",
+      "deskripsi": "Vertebra cervicalis VII (C7) dikenal sebagai 'vertebra prominens' karena prosesus spinosusnya panjang dan menonjol, mudah diraba di dasar leher sebagai tonjolan tulang di bawah rambut.",
+      "faktaAnatomiSederhana": "C7 adalah vertebra pertama yang teraba jelas di tengkuk sebagai tonjolan tulang saat menundukkan kepala. Ini adalah patokan penting dalam pemeriksaan klinis untuk menghitung vertebra. Akar saraf C7 menginervasi otot trisep dan jari tengah."
+    },
+    {
+      "no": 126,
+      "objectBlender": "vertebra_lumbalis_01",
+      "namaTampilanIndonesia": "Vertebra lumbal 1",
+      "namaAnatomiLatin": "Vertebra lumbalis I",
+      "deskripsi": "Vertebra lumbalis I (L1) adalah vertebra pinggang pertama. Lebih besar dari vertebra serviks dan torakal karena menanggung beban yang lebih berat. Setinggi batas bawah medula spinalis (conus medullaris) yang berakhir di sekitar L1-L2.",
+      "faktaAnatomiSederhana": "L1 adalah level di mana sumsum tulang belakang berakhir menjadi conus medullaris. Di bawah L1, kanal tulang belakang hanya berisi cauda equina (kumpulan akar saraf). Ini penting untuk prosedur pungsi lumbar yang dilakukan di bawah L1 agar tidak melukai sumsum tulang belakang."
+    },
+    {
+      "no": 127,
+      "objectBlender": "vertebra_lumbalis_02",
+      "namaTampilanIndonesia": "Vertebra lumbal 2",
+      "namaAnatomiLatin": "Vertebra lumbalis II",
+      "deskripsi": "Vertebra lumbalis II (L2) adalah vertebra pinggang kedua dengan badan yang besar dan kokoh. Berada di level setara dengan ginjal bagian bawah dan merupakan salah satu titik pungsi lumbar yang aman.",
+      "faktaAnatomiSederhana": "L2 berada setinggi ginjal bagian bawah dan hilus renalis. Hernia diskus di level L1-L2 jarang terjadi (sekitar 4% dari semua hernia diskus lumbal) namun dapat menyebabkan nyeri dan kelemahan di paha depan (kompresi akar saraf L2)."
+    },
+    {
+      "no": 128,
+      "objectBlender": "vertebra_lumbalis_03",
+      "namaTampilanIndonesia": "Vertebra lumbal 3",
+      "namaAnatomiLatin": "Vertebra lumbalis III",
+      "deskripsi": "Vertebra lumbalis III (L3) adalah vertebra pinggang ketiga dan biasanya berada di garis yang menghubungkan kedua puncak ilium (garis suprakristal atau garis Tuffier). Dijadikan patokan untuk prosedur anestesi spinal.",
+      "faktaAnatomiSederhana": "Garis yang menghubungkan puncak dua tulang panggul (linea interkristalis) biasanya setinggi L3-L4. Dokter menggunakan patokan ini untuk menentukan tempat menyuntikkan obat bius spinal atau mengambil cairan serebrospinal (pungsi lumbar) tanpa melukai sumsum tulang belakang."
+    },
+    {
+      "no": 129,
+      "objectBlender": "vertebra_lumbalis_04",
+      "namaTampilanIndonesia": "Vertebra lumbal 4",
+      "namaAnatomiLatin": "Vertebra lumbalis IV",
+      "deskripsi": "Vertebra lumbalis IV (L4) adalah vertebra pinggang keempat, terletak di level yang sama dengan puncak ilium. Ruang diskus L4-L5 adalah lokasi tersering herniasi diskus lumbal.",
+      "faktaAnatomiSederhana": "Akar saraf L4 menginervasi tungkai bawah termasuk refleks patela (reflex lutut). Hernia diskus L4-L5 menyebabkan nyeri yang menjalar dari punggung bawah ke betis dan ibu jari kaki, yang dikenal sebagai ischialgia atau 'saitika'."
+    },
+    {
+      "no": 130,
+      "objectBlender": "vertebra_lumbalis_05",
+      "namaTampilanIndonesia": "Vertebra lumbal 5",
+      "namaAnatomiLatin": "Vertebra lumbalis V",
+      "deskripsi": "Vertebra lumbalis V (L5) adalah vertebra pinggang terbesar dan paling inferior. Bersendi dengan sacrum membentuk persendian lumbosakral yang menerima beban paling besar. Diskus L5-S1 adalah diskus yang paling sering mengalami herniasi.",
+      "faktaAnatomiSederhana": "Diskus antara L5 dan sacrum (L5-S1) menerima tekanan terbesar di seluruh tulang belakang dan paling rentan mengalami herniasi. Hernia diskus L5-S1 menekan saraf S1 yang menyebabkan nyeri menjalar ke tumit dan tepi luar kaki, serta melemahnya refleks Achilles."
+    },
+    {
+      "no": 131,
+      "objectBlender": "vertebra_thoracica_01",
+      "namaTampilanIndonesia": "Vertebra torakal 1",
+      "namaAnatomiLatin": "Vertebra thoracica I",
+      "deskripsi": "Vertebra thoracica I (T1) adalah vertebra dada pertama yang bersendi dengan pasangan iga pertama. Transisi dari vertebra serviks ke torakal ditandai dengan adanya fasies articularis untuk tulang iga di badan dan prosesus transversus vertebra torakal.",
+      "faktaAnatomiSederhana": "T1 menandai awal segmen torakal tulang belakang. Akar saraf T1 menginervasi jari kelingking dan jari manis tangan. Pada sindrom Horner (ptosis, miosis, anhidrosis wajah), sering terdapat gangguan di level T1 yang memengaruhi saraf simpatik untuk wajah dan mata."
+    },
+    {
+      "no": 132,
+      "objectBlender": "vertebra_thoracica_02",
+      "namaTampilanIndonesia": "Vertebra torakal 2",
+      "namaAnatomiLatin": "Vertebra thoracica II",
+      "deskripsi": "Vertebra thoracica II (T2) bersendi dengan iga kedua melalui dua facet di badan vertebra (untuk iga ke-1 dan ke-2) dan satu facet di prosesus transversus (untuk iga ke-2). Berada di level setara dengan angulus sterni.",
+      "faktaAnatomiSederhana": "T2 berada di level yang sama dengan angulus sterni (sudut Louis) dan persimpangan iga kedua dengan sternum. Ini menjadikannya penanda radiologis penting untuk mengidentifikasi struktur di mediastinum seperti arkus aorta dan bifurkasi trakea."
+    },
+    {
+      "no": 133,
+      "objectBlender": "vertebra_thoracica_03",
+      "namaTampilanIndonesia": "Vertebra torakal 3",
+      "namaAnatomiLatin": "Vertebra thoracica III",
+      "deskripsi": "Vertebra thoracica III (T3) bersendi dengan iga ketiga. Berada di level setara dengan batas atas skapula. Akar saraf T3 menginervasi kulit dinding dada bagian atas.",
+      "faktaAnatomiSederhana": "T3 setinggi tepi atas scapula dan batas atas paru-paru. Kompresi saraf di level T3 dapat menyebabkan nyeri seperti terikat di dada yang disebut nyeri radikular torakal, yang kadang disalahartikan sebagai nyeri jantung."
+    },
+    {
+      "no": 134,
+      "objectBlender": "vertebra_thoracica_04",
+      "namaTampilanIndonesia": "Vertebra torakal 4",
+      "namaAnatomiLatin": "Vertebra thoracica IV",
+      "deskripsi": "Vertebra thoracica IV (T4) bersendi dengan iga keempat dan berada di level setinggi angulus scapulae (sudut bawah-medial scapula) dan bifurkasi trakea menjadi dua bronkus utama.",
+      "faktaAnatomiSederhana": "T4 adalah level di mana trakea bercabang menjadi bronkus kanan dan kiri (carina). Ini penting dalam prosedur intubasi dan bronkoskopi. Level T4 juga sering digunakan sebagai panduan dalam anestesi spinal torakal untuk operasi dada."
+    },
+    {
+      "no": 135,
+      "objectBlender": "vertebra_thoracica_05",
+      "namaTampilanIndonesia": "Vertebra torakal 5",
+      "namaAnatomiLatin": "Vertebra thoracica V",
+      "deskripsi": "Vertebra thoracica V (T5) bersendi dengan iga kelima dan berada di sekitar level pangkal arkus aorta.",
+      "faktaAnatomiSederhana": "T5 berada setinggi pangkal aorta desending yang mulai berjalan di depan kolumna vertebralis. Aneurisma aorta torakal sering terjadi di area sekitar T5-T8, dan tekanan dari aneurisma yang membesar bisa menyebabkan erosi pada badan vertebra."
+    },
+    {
+      "no": 136,
+      "objectBlender": "vertebra_thoracica_06",
+      "namaTampilanIndonesia": "Vertebra torakal 6",
+      "namaAnatomiLatin": "Vertebra thoracica VI",
+      "deskripsi": "Vertebra thoracica VI (T6) bersendi dengan iga keenam dan berada di punggung tengah. Merupakan salah satu vertebra di zona transisi kurva lordotik serviks menuju kurva kifotik torakal.",
+      "faktaAnatomiSederhana": "Tulang belakang torakal (T1-T12) membentuk kurva cembung ke belakang yang disebut kifosis torakal. T6 berada di puncak kurva ini. Penambahan kurva kifosis secara abnormal (hiperkifosis) atau punggung bungkuk sering terlihat paling jelas di level T5-T8."
+    },
+    {
+      "no": 137,
+      "objectBlender": "vertebra_thoracica_07",
+      "namaTampilanIndonesia": "Vertebra torakal 7",
+      "namaAnatomiLatin": "Vertebra thoracica VII",
+      "deskripsi": "Vertebra thoracica VII (T7) bersendi dengan iga ketujuh dan berada setinggi sudut bawah scapula (angulus inferior scapulae) saat lengan dalam posisi anatomis.",
+      "faktaAnatomiSederhana": "Sudut bawah scapula dapat diraba dan berada setinggi T7, menjadikannya patokan klinis sederhana untuk memperkirakan level vertebra torakal tengah. Di belakang vertebra ini terdapat esofagus yang berjalan tepat di depan kolumna vertebralis."
+    },
+    {
+      "no": 138,
+      "objectBlender": "vertebra_thoracica_08",
+      "namaTampilanIndonesia": "Vertebra torakal 8",
+      "namaAnatomiLatin": "Vertebra thoracica VIII",
+      "deskripsi": "Vertebra thoracica VIII (T8) bersendi dengan iga kedelapan. Di level ini, vena kava inferior melewati diafragma melalui foramen vena kavae.",
+      "faktaAnatomiSederhana": "T8 adalah level di mana vena kava inferior menembus diafragma untuk menuju jantung. Ini adalah salah satu dari tiga 'lubang' penting di diafragma yang juga dilewati esofagus (T10) dan aorta (T12)."
+    },
+    {
+      "no": 139,
+      "objectBlender": "vertebra_thoracica_09",
+      "namaTampilanIndonesia": "Vertebra torakal 9",
+      "namaAnatomiLatin": "Vertebra thoracica IX",
+      "deskripsi": "Vertebra thoracica IX (T9) bersendi dengan iga kesembilan. Berada di area transisi antara vertebra torakal tengah dan bawah.",
+      "faktaAnatomiSederhana": "Hernia nukleus pulposus (HNP) di tulang belakang torakal relatif jarang (hanya sekitar 0.5% dari semua HNP) karena gerak vertebra torakal sangat terbatas berkat iga. Ketika terjadi di T9, dapat menyebabkan gejala nyeri ikat di perut bagian atas atau punggung tengah."
+    },
+    {
+      "no": 140,
+      "objectBlender": "vertebra_thoracica_10",
+      "namaTampilanIndonesia": "Vertebra torakal 10",
+      "namaAnatomiLatin": "Vertebra thoracica X",
+      "deskripsi": "Vertebra thoracica X (T10) bersendi dengan iga kesepuluh. Berada di level setinggi pusat (umbilikus) dan merupakan vertebra torakal bawah.",
+      "faktaAnatomiSederhana": "Akar saraf T10 menginervasi kulit di sekitar pusar (umbilikus). Ketika terjadi apendisitis (radang usus buntu), nyeri awal sering dirasakan di sekitar pusar karena dipersarafi akar saraf T10 yang sama dengan usus buntu, sebelum nyeri berpindah ke perut kanan bawah."
+    },
+    {
+      "no": 141,
+      "objectBlender": "vertebra_thoracica_11",
+      "namaTampilanIndonesia": "Vertebra torakal 11",
+      "namaAnatomiLatin": "Vertebra thoracica XI",
+      "deskripsi": "Vertebra thoracica XI (T11) bersendi dengan iga kesebelas (iga melayang) hanya melalui satu fasies pada badan vertebra, tanpa sambungan di prosesus transversus. Ini karena iga 11 dan 12 tidak memiliki artikulasi di prosesus transversus.",
+      "faktaAnatomiSederhana": "T11 menandai awal dari zona transisi tulang belakang torakolumbal. Fraktur paling umum terjadi di area torakolumbal (T11-L2) akibat trauma, karena ini adalah persimpangan antara segmen torakal yang kaku (distabilkan iga) dan segmen lumbal yang lebih mobile."
+    },
+    {
+      "no": 142,
+      "objectBlender": "vertebra_thoracica_12",
+      "namaTampilanIndonesia": "Vertebra torakal 12",
+      "namaAnatomiLatin": "Vertebra thoracica XII",
+      "deskripsi": "Vertebra thoracica XII (T12) adalah vertebra torakal terakhir yang bersendi dengan iga keduabelas dan memiliki karakteristik transisi antara vertebra torakal dan lumbal. Prosesus transversus T12 lebih mirip prosesus mamilaris vertebra lumbal.",
+      "faktaAnatomiSederhana": "T12 adalah vertebra yang paling sering mengalami fraktur kompresi akibat osteoporosis bersama dengan L1. Transisi T12-L1 adalah 'titik lemah' struktural tulang belakang karena perubahan mendadak dari mobilitas terbatas (torakal) ke mobilitas tinggi (lumbal)."
+    }
+  ]
+}

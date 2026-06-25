@@ -1,0 +1,5 @@
+C:/Users/jerem/Bones_AR/.utmp/RelWithDebInfo/n4q5i6d3/arm64-v8a/CMakeFiles/edit_cache.dir
+C:/Users/jerem/Bones_AR/.utmp/RelWithDebInfo/n4q5i6d3/arm64-v8a/CMakeFiles/rebuild_cache.dir
+C:/Users/jerem/Bones_AR/.utmp/RelWithDebInfo/n4q5i6d3/arm64-v8a/GameActivity/CMakeFiles/game.dir
+C:/Users/jerem/Bones_AR/.utmp/RelWithDebInfo/n4q5i6d3/arm64-v8a/GameActivity/CMakeFiles/edit_cache.dir
+C:/Users/jerem/Bones_AR/.utmp/RelWithDebInfo/n4q5i6d3/arm64-v8a/GameActivity/CMakeFiles/rebuild_cache.dir

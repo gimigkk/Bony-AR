@@ -1,0 +1,5 @@
+C:/Users/candra/wkspaces/Bones_AR-AR_BONES/.utmp/RelWithDebInfo/52c381i5/arm64-v8a/CMakeFiles/edit_cache.dir
+C:/Users/candra/wkspaces/Bones_AR-AR_BONES/.utmp/RelWithDebInfo/52c381i5/arm64-v8a/CMakeFiles/rebuild_cache.dir
+C:/Users/candra/wkspaces/Bones_AR-AR_BONES/.utmp/RelWithDebInfo/52c381i5/arm64-v8a/GameActivity/CMakeFiles/game.dir
+C:/Users/candra/wkspaces/Bones_AR-AR_BONES/.utmp/RelWithDebInfo/52c381i5/arm64-v8a/GameActivity/CMakeFiles/edit_cache.dir
+C:/Users/candra/wkspaces/Bones_AR-AR_BONES/.utmp/RelWithDebInfo/52c381i5/arm64-v8a/GameActivity/CMakeFiles/rebuild_cache.dir
