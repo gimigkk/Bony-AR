@@ -316,9 +316,9 @@ public sealed class ARAppModeController : MonoBehaviour
         overlayRoot.offsetMax = Vector2.zero;
         overlayRoot.SetAsLastSibling();
 
-        RectTransform statusPanel = CreatePanel("Mode Status Panel", overlayRoot, StatusColor);
-        statusPanel.anchorMin = new Vector2(0.04f, 0f);
-        statusPanel.anchorMax = new Vector2(0.96f, 0f);
+        RectTransform statusPanel = CreatePanel("Mode Status Panel", overlayRoot, new Color(0, 0, 0, 0));
+        statusPanel.anchorMin = new Vector2(0f, 0f);
+        statusPanel.anchorMax = new Vector2(1f, 0f);
         statusPanel.pivot = new Vector2(0.5f, 0f);
         statusPanel.anchoredPosition = new Vector2(0f, 140f);
         statusPanel.sizeDelta = new Vector2(0f, 50f);
@@ -335,7 +335,8 @@ public sealed class ARAppModeController : MonoBehaviour
         bar.anchorMax = new Vector2(1f, 0f);
         bar.pivot = new Vector2(0.5f, 0f);
         bar.anchoredPosition = new Vector2(0f, 0f);
-        bar.sizeDelta = new Vector2(0f, 180f);
+        bar.sizeDelta = new Vector2(0f, 280f);
+        bar.SetAsFirstSibling();
         actionBarObject = bar.gameObject;
 
         HorizontalLayoutGroup layout = bar.gameObject.AddComponent<HorizontalLayoutGroup>();
@@ -621,9 +622,9 @@ public sealed class ARAppModeController : MonoBehaviour
         for (int y = 0; y < height; y++)
         {
             float t = (float)y / (height - 1);
-            // Smooth non-linear fade for the gradient
-            float alpha = Mathf.Pow(1f - t, 1.5f);
-            tex.SetPixel(0, y, new Color(0f, 0f, 0f, alpha * 0.95f));
+            // Darker, taller gradient curve
+            float alpha = Mathf.Pow(1f - t, 0.7f);
+            tex.SetPixel(0, y, new Color(0f, 0f, 0f, alpha * 0.98f));
         }
         tex.Apply();
         
