@@ -420,7 +420,7 @@ public sealed class ARAppModeController : MonoBehaviour
         overlayBtn.onClick.AddListener(ToggleInstructionPanel);
 
         // 2. Create the actual modal panel inside the overlay
-        GameObject modalBox = new GameObject("Instruction Panel Box", typeof(RectTransform), typeof(Image), typeof(VerticalLayoutGroup), typeof(ContentSizeFitter));
+        GameObject modalBox = new GameObject("Instruction Panel Box", typeof(RectTransform), typeof(Image), typeof(VerticalLayoutGroup), typeof(ContentSizeFitter), typeof(ModalAnimator));
         modalBox.transform.SetParent(instructionPanelObject.transform, false);
 
         RectTransform rect = modalBox.GetComponent<RectTransform>();

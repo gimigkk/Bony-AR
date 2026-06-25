@@ -379,7 +379,7 @@ public sealed class BoneQuizController : MonoBehaviour
         rulesBtn.onClick.AddListener(ExitMinigameClicked);
 
         // The rulesBox blocks clicks from reaching the overlay dismiss button behind it
-        GameObject rulesBox = new GameObject("Rules Box", typeof(RectTransform), typeof(Image), typeof(VerticalLayoutGroup), typeof(ContentSizeFitter), typeof(Button));
+        GameObject rulesBox = new GameObject("Rules Box", typeof(RectTransform), typeof(Image), typeof(VerticalLayoutGroup), typeof(ContentSizeFitter), typeof(Button), typeof(ModalAnimator));
         rulesBox.transform.SetParent(rulesPanel.transform, false);
         Image rulesBoxImg = rulesBox.GetComponent<Image>();
         rulesBoxImg.color = new Color(0.08f, 0.09f, 0.1f, 0.98f);
@@ -508,6 +508,7 @@ public sealed class BoneQuizController : MonoBehaviour
         overBg.color = new Color(0f, 0f, 0f, 0.6f); // Match dimming
         
         GameObject overBox = ARAppModeController.CreatePanel("Game Over Box", gameOverPanel.transform, new Color(0.08f, 0.09f, 0.1f, 0.98f)).gameObject;
+        overBox.AddComponent<ModalAnimator>();
         RectTransform overRect = overBox.GetComponent<RectTransform>();
         overRect.anchorMin = new Vector2(0.2f, 0.3f); overRect.anchorMax = new Vector2(0.8f, 0.7f);
         overRect.offsetMin = Vector2.zero; overRect.offsetMax = Vector2.zero;

@@ -887,7 +887,7 @@ public class BoneInteractionUI : MonoBehaviour
             HideInfoPanelOnly();
         });
 
-        GameObject modalBox = new GameObject("Bone Info Modal", typeof(RectTransform), typeof(Image), typeof(VerticalLayoutGroup), typeof(ContentSizeFitter));
+        GameObject modalBox = new GameObject("Bone Info Modal", typeof(RectTransform), typeof(Image), typeof(VerticalLayoutGroup), typeof(ContentSizeFitter), typeof(ModalAnimator));
         modalBox.transform.SetParent(overlayRect, false);
 
         RectTransform rect = modalBox.GetComponent<RectTransform>();
