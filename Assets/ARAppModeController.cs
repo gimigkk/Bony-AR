@@ -342,6 +342,18 @@ public sealed class ARAppModeController : MonoBehaviour
         bar.SetAsFirstSibling();
         actionBarObject = bar.gameObject;
 
+        RectTransform topBar = CreatePanel("Top Action Bar Gradient", overlayRoot, Color.white);
+        Image topBarImage = topBar.GetComponent<Image>();
+        topBarImage.sprite = GetGradientSprite();
+        topBarImage.type = Image.Type.Simple;
+        topBar.anchorMin = new Vector2(0f, 1f);
+        topBar.anchorMax = new Vector2(1f, 1f);
+        topBar.pivot = new Vector2(0.5f, 1f);
+        topBar.anchoredPosition = new Vector2(0f, 0f);
+        topBar.sizeDelta = new Vector2(0f, 280f);
+        topBar.localRotation = Quaternion.Euler(0, 0, 180f);
+        topBar.SetAsFirstSibling();
+
         HorizontalLayoutGroup layout = bar.gameObject.AddComponent<HorizontalLayoutGroup>();
         layout.padding = new RectOffset(20, 20, 20, 40); // 40 bottom padding to keep buttons above physical screen edge
         layout.spacing = 16f;
