@@ -343,7 +343,6 @@ public sealed class ARAppModeController : MonoBehaviour
         layout.childForceExpandWidth = true;
         layout.childForceExpandHeight = true;
 
-        AddModeButton(bar, "Skeleton", ARAppMode.Skeleton);
         AddModeButton(bar, "Kuis", ARAppMode.Quiz);
         AddButton(bar, "Reset", ResetColor, ResetApp);
 
