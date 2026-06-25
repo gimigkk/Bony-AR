@@ -112,6 +112,8 @@ public sealed class ARAppModeController : MonoBehaviour
         }
 
         SetMode(ARAppMode.Skeleton);
+
+        StartCoroutine(Force60FPSCamera());
     }
 
     private void OnDestroy()
@@ -125,6 +127,38 @@ public sealed class ARAppModeController : MonoBehaviour
         if (instance == this)
         {
             instance = null;
+        }
+    }
+
+    private IEnumerator Force60FPSCamera()
+    {
+        // Wait until AR is fully initialized
+        yield return new WaitForSeconds(1f);
+        var arManager = FindFirstObjectByType<UnityEngine.XR.ARFoundation.ARCameraManager>();
+        if (arManager != null && arManager.subsystem != null)
+        {
+            var configurations = arManager.GetConfigurations(Unity.Collections.Allocator.Temp);
+            if (configurations.IsCreated)
+            {
+                UnityEngine.XR.ARSubsystems.XRCameraConfiguration? bestConfig = null;
+                int highestFramerate = 0;
+                
+                foreach (var config in configurations)
+                {
+                    if (config.framerate.HasValue && config.framerate.Value > highestFramerate)
+                    {
+                        highestFramerate = config.framerate.Value;
+                        bestConfig = config;
+                    }
+                }
+                
+                if (bestConfig.HasValue)
+                {
+                    arManager.currentConfiguration = bestConfig.Value;
+                    Debug.Log($"[ARAppModeController] Forced camera to {highestFramerate} FPS.");
+                }
+                configurations.Dispose();
+            }
         }
     }
 
