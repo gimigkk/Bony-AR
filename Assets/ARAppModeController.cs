@@ -816,6 +816,30 @@ public sealed class ARAppModeController : MonoBehaviour
         currentMode = (ARAppMode)(-1); // Force state change so SetMode executes
         SetMode(ARAppMode.Skeleton);
         SetStatus("Reset selesai. Scan lantai untuk menaruh skeleton.");
+        ToggleARVisualizers(true);
+    }
+
+    public void ToggleARVisualizers(bool show)
+    {
+        var planeManager = FindFirstObjectByType<UnityEngine.XR.ARFoundation.ARPlaneManager>();
+        if (planeManager != null)
+        {
+            planeManager.enabled = show;
+            foreach (var plane in planeManager.trackables)
+            {
+                plane.gameObject.SetActive(show);
+            }
+        }
+
+        var pointCloudManager = FindFirstObjectByType<UnityEngine.XR.ARFoundation.ARPointCloudManager>();
+        if (pointCloudManager != null)
+        {
+            pointCloudManager.enabled = show;
+            foreach (var cloud in pointCloudManager.trackables)
+            {
+                cloud.gameObject.SetActive(show);
+            }
+        }
     }
 
 

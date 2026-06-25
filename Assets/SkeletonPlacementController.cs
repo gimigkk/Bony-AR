@@ -176,6 +176,7 @@ public sealed class SkeletonPlacementController : MonoBehaviour
         if (appMode != null)
         {
             appMode.SetMode(ARAppMode.Skeleton);
+            appMode.ToggleARVisualizers(false);
             // The text "Aim the camera at a bone, and tap the screen!" will be set by ARAppModeController.SetMode
         }
     }
