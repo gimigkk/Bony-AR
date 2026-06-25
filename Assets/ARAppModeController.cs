@@ -536,7 +536,7 @@ public sealed class ARAppModeController : MonoBehaviour
 
         // Create the actual panel inside the overlay
         RectTransform panel = CreatePanel("Model Control Panel Box", controlOverlayObject.transform, StatusColor);
-        panel.anchorMin = new Vector2(0.68f, 0.12f);
+        panel.anchorMin = new Vector2(0.55f, 0.12f); // Wider to accommodate 3 sliders
         panel.anchorMax = new Vector2(0.98f, 0.88f);
         panel.offsetMin = Vector2.zero;
         panel.offsetMax = Vector2.zero;
@@ -552,7 +552,7 @@ public sealed class ARAppModeController : MonoBehaviour
         sliderLayout.spacing = 6f;
 
         // Create Scale Slider
-        scaleSlider = CreateVerticalSlider("Skala", panel, ModelScaleMin, ModelScaleMax, 1.0f);
+        scaleSlider = CreateVerticalSlider("Skala", panel, ModelScaleMin, ModelScaleMax, 0.7f);
         scaleSlider.onValueChanged.AddListener((val) => {
             if (isUpdatingSliders) return;
             SkeletonTransformHandle handle = GetActiveTransformHandle(true);

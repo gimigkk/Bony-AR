@@ -7,7 +7,7 @@ public sealed class SkeletonTransformHandle : MonoBehaviour
     private Vector3 baseLocalScale;
     private Vector3 positionOffset;
     private Vector3 rotationOffset;
-    private float scaleMultiplier = 1f;
+    private float scaleMultiplier = 0.7f;
 
     public Vector3 PositionOffset
     {
@@ -58,7 +58,7 @@ public sealed class SkeletonTransformHandle : MonoBehaviour
     {
         positionOffset = Vector3.zero;
         rotationOffset = Vector3.zero;
-        scaleMultiplier = 1f;
+        scaleMultiplier = 0.7f;
         Apply();
     }
 
